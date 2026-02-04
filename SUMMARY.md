@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Giới thiệu](README.md)
+* [🏠 Trang chủ](README.md)
 
-## Dịch vụ
-* [SMS Brandname](sms-brandname.md)
-* [ZNS, Zalo OA](zns-zalo-oa.md)
+## 📱 Dịch vụ SMS
+* [Sms Brandname](services/sms-brandname.md)
+* [Zalo OA](services/zalo-oa.md)
 
-## Hướng dẫn kỹ thuật
-* [Kết nối API](api-integration.md)
+## 🛠 Kỹ thuật & Hệ thống
+* [Hướng dẫn API](tech/api.md)
