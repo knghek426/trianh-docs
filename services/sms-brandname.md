@@ -11,7 +11,7 @@ Dịch vụ gửi tin nhắn chăm sóc khách hàng và quảng cáo với tên
 > [!TIP]
 > Tin nhắn Brandname có độ dài tối đa **160 ký tự** cho tin không dấu.
 
-### 🛠 Code mẫu gửi tin (CURL)
+### 🛠 CURL mẫu gửi tin bằng API (CURL)
 ```bash
 curl -X POST [https://YOUR_DOMAIN/apismsservice/send](https://YOUR_DOMAIN/apismsservice/send) \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
