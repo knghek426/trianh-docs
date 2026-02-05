@@ -1,93 +1,86 @@
+<div style="border:1px solid #fde2e2; background:#fff5f5; padding:20px; border-radius:12px;">
+<h2 style="margin-top:0">📨 Zalo OA & ZNS</h2>
+<p><strong>Zalo OA (Official Account)</strong> và <strong>ZNS (Zalo Notification Service)</strong> dùng để gửi tin nhắn đã được Zalo phê duyệt tới người dùng:</p>
+<ul>
+<li>Thông báo giao dịch</li>
+<li>OTP</li>
+<li>Nhắc thanh toán</li>
+<li>Chăm sóc khách hàng</li>
+</ul>
+<p>📌 Tài liệu này tập trung vào <strong>hướng dẫn tạo Template ZBS trên CRM TriAnh</strong>.</p>
+</div>
+
+
 ---
-description: Hướng dẫn chi tiết quy trình khởi tạo và quản lý Template ZBS trên hệ thống CRM TriAnh.
----
 
-Zalo OA (Official Account) và ZNS (Zalo Notification Service) dùng để gửi tin nhắn đã được Zalo phê duyệt tới người dùng: thông báo giao dịch, OTP, nhắc thanh toán, chăm sóc khách hàng.
-
-Tài liệu này tập trung vào **hướng dẫn tạo Template ZBS trên hệ thống CRM TriAnh**.
-
-***
-
-## Mục lục
-
-* [Zalo OA & ZNS](zalo-oa.md#zalo-oa--zns)
-  * [Mục lục](zalo-oa.md#mục-lục)
-  * [Tổng quan](zalo-oa.md#tổng-quan)
-  * [Lịch sử cập nhật](zalo-oa.md#lịch-sử-cập-nhật)
-  * [Quy trình tạo template ZBS – Mẫu tuỳ chỉnh](zalo-oa.md#quy-trình-tạo-template-zbs--mẫu-tuỳ-chỉnh)
-    * [Bước 1: Truy cập màn hình tạo template](zalo-oa.md#bước-1-truy-cập-màn-hình-tạo-template)
-    * [Bước 2: Tạo template Zalo ZBS](zalo-oa.md#bước-2-tạo-template-zalo-zbs)
-    * [Bước 3: Nhập thông tin template](zalo-oa.md#bước-3-nhập-thông-tin-template)
-      * [Thông tin cơ bản](zalo-oa.md#thông-tin-cơ-bản)
-      * [Nội dung hiển thị](zalo-oa.md#nội-dung-hiển-thị)
-      * [Bảng dữ liệu](zalo-oa.md#bảng-dữ-liệu)
-
-***
 
 ## Tổng quan
 
-Template **ZBS (Zalo Business Service)** là mẫu tin nhắn Zalo được gửi từ Zalo OA của doanh nghiệp tới khách hàng, yêu cầu **kiểm duyệt trước** từ Zalo. Việc tạo và quản lý template ZBS được thực hiện trực tiếp trên **CRM TriAnh**.
 
-Template ZBS được sử dụng cho:
+Template <strong>ZBS (Zalo Business Service)</strong> là mẫu tin nhắn Zalo được gửi từ Zalo OA của doanh nghiệp tới khách hàng và bắt buộc phải <strong>được Zalo kiểm duyệt</strong> trước khi sử dụng.
 
-* Thông báo giao dịch
-* Nhắc thanh toán
-* Xác nhận đơn hàng
-* Thông báo dịch vụ
 
-***
+---
 
-### Bước 1: Truy cập quản trị
-Tại giao diện Dashboard CRM, bạn di chuyển theo lộ trình sau:
-`Menu chính` > `Cấu hình` > **Mẫu Email, SMS, ZNS**
 
-| Ngày       | Người cập nhật | Version | Mô tả                 |
-| ---------- | -------------- | ------- | --------------------- |
-| 27/01/2026 | Lý Anh Khoa    | Ver 1.0 | Bắt đầu soạn tài liệu |
+## Lịch sử cập nhật
 
-***
+
+<table>
+<thead>
+<tr><th>Ngày</th><th>Người cập nhật</th><th>Version</th><th>Mô tả</th></tr>
+</thead>
+<tbody>
+<tr><td>27/01/2026</td><td>Lý Anh Khoa</td><td>Ver 1.0</td><td>Bắt đầu soạn tài liệu</td></tr>
+</tbody>
+</table>
+
+
+---
+
 
 ## Quy trình tạo template ZBS – Mẫu tuỳ chỉnh
 
-### Bước 1: Truy cập màn hình tạo template
 
-Tại giao diện CRM, chọn:
+<div style="border-left:4px solid #ff6b6b; padding:16px; margin:24px 0; background:#fff;">
+<h3 style="margin-top:0">🔹 Bước 1: Truy cập màn hình tạo template</h3>
+<p>Tại giao diện CRM, chọn:</p>
+<p><strong>Mẫu Email, SMS, ZNS</strong> → vào màn hình quản lý template</p>
+<img src="../assets/zbs/vao-email-template.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+<p style="font-size:14px; color:#666;">Hình 1: Vị trí menu Mẫu Email, SMS, ZNS</p>
+</div>
 
-**Mẫu Email, SMS, ZNS** → vào màn hình quản lý template.
 
-![Truy cập màn hình Mẫu Email, SMS, ZNS](../.gitbook/assets/vao-email-template.jpg)
+<div style="border:1px solid #eee; border-radius:12px; padding:20px; margin:24px 0;">
+<h3 style="margin-top:0">🔹 Bước 2: Tạo template Zalo ZBS</h3>
+<ol>
+<li>Chọn biểu tượng <strong>Zalo</strong></li>
+<li>Nhấn <strong>Tạo mới</strong> để khởi tạo template</li>
+</ol>
+</div>
 
-***
 
-### Bước 2: Tạo template Zalo ZBS
+<div style="border:1px solid #eee; border-radius:12px; padding:20px; margin:24px 0;">
+<h3 style="margin-top:0">🔹 Bước 3: Nhập thông tin template</h3>
+<h4>📌 Thông tin cơ bản</h4>
+<table>
+<tr><td><strong>Tên mẫu ZBS</strong></td><td>Tên nội bộ để quản lý</td></tr>
+<tr><td><strong>Nguồn liên hệ</strong></td><td>Zalo OA tương ứng</td></tr>
+<tr><td><strong>Loại ZBS</strong></td><td>Tuỳ chỉnh</td></tr>
+<tr><td><strong>Mục đích gửi</strong></td><td>Giao dịch / Thông báo</td></tr>
+</table>
 
-* Click vào biểu tượng **Zalo**
-* Nhấn nút **Tạo mới** để khởi tạo template ZBS
 
-***
+<h4>🖼 Nội dung hiển thị</h4>
+<ul>
+<li><strong>Logo:</strong> Kích thước 400×96 px</li>
+<li><strong>Tiêu đề:</strong> Có thể chứa biến <code>{}</code></li>
+<li><strong>Văn bản:</strong> Tối thiểu 1 ô, biến đặt trong <code>{}</code></li>
+</ul>
+</div>
 
-### Bước 3: Nhập thông tin template
 
-#### Thông tin cơ bản
-
-* **Tên mẫu ZBS**: Tên nội bộ để quản lý
-* **Nguồn liên hệ**: Chọn Zalo OA tương ứng
-* **Loại ZBS**: Tuỳ chỉnh
-* **Mục đích gửi ZBS**: Chọn đúng mục đích (giao dịch / thông báo)
-
-#### Nội dung hiển thị
-
-* **Logo**:
-* Kích thước yêu cầu: **400 x 96 px**
-* Ảnh cần được xử lý sẵn trước khi upload
-* **Tiêu đề**:
-* Có thể chứa biến
-* Biến phải đặt trong dấu `{}`
-* Ví dụ: `Xác nhận đơn hàng {order_id}`
-* **Văn bản nội dung**:
-* Tối thiểu 1 ô văn bản
-* Nếu có biến, biến phải đặt trong `{}`
-
-#### Bảng dữ liệu
-
-[Previous](sms-brandname.md) • [Next](../api/overview.md)
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+<a href="../messaging/sms-brandname.md">← SMS Brandname</a>
+<a href="../api/overview.md">Hướng dẫn API →</a>
+</div>
