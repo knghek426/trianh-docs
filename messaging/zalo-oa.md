@@ -65,7 +65,7 @@ Tại giao diện CRM, chọn:
 
 **Mẫu Email, SMS, ZNS** → vào màn hình quản lý template.
 
-![Truy cập màn hình Mẫu Email, SMS, ZNS](../assets/zbs/vao email-template.jpg)
+![Truy cập màn hình Mẫu Email, SMS, ZNS](../assets/zbs/vao-email-template.jpg)
 
 ---
 
