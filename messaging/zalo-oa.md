@@ -32,6 +32,9 @@ Template **ZBS (Zalo Business Solutions)** là mẫu tin nhắn Zalo được g�
 <div style="border-left:4px solid #ff6b6b; padding:16px; margin:24px 0; background:#fff;">
 <h3 style="margin-top:0">🔹 Bước 1: Truy cập menu</h3>
 <p>Tại giao diện CRM, click vào icon <strong>Mẫu Email, SMS, ZNS</strong> để vào giao diện quản lý.</p>
+<img src="../assets/zbs/vao-email-template.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+
+<p style="font-size:14px; color:#666;">Hình 1: Vị trí menu Mẫu Email, SMS, ZNS</p>
 </div>
 
 <div style="border:1px solid #eee; border-radius:12px; padding:20px; margin:24px 0;">
