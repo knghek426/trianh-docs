@@ -14,14 +14,11 @@ Voice Brandname cho phép phát thương hiệu (tên công ty) hoặc thông đ
 
 ## API mẫu
 ```
-POST /v1/voice/send
+POST /v2/apisupport/send/sms
 Headers: Authorization: Bearer <API_KEY>
 Body:
 {
-  "to": "+849xxxxxxxx",
-  "caller_id": "+84xxxxxxx",
-  "audio_url": "https://assets.example.com/brand.mp3",
-  "priority": "normal"
+  
 }
 ```
 

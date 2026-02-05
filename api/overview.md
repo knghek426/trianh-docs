@@ -10,7 +10,6 @@ Sử dụng header: `Authorization: Bearer <API_KEY>`
 ## Endpoints chính
 - `POST /sms/send` — gửi SMS
 - `GET /sms/status/{id}` — trạng thái SMS
-- `POST /voice/send` — gửi voice campaign
 - `POST /zalo/zns/send` — gửi ZNS
 
 ## Rate limit
