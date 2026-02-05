@@ -1,12 +1,25 @@
 # Table of contents
 
-* [🚀 Giới thiệu](README.md)
+* [🚀 Trang chủ](README.md)
+* [🏢 Giới thiệu TriAnh Solutions](intro/about.md)
 
-## 📱 Dịch vụ SMS
+## 📞 Giải pháp Tổng đài & Voice
+* [Tổng đài ảo CCMS](solutions/ccms.md)
+* [Voice Brandname](solutions/voice-brandname.md)
+* [Dịch vụ IVR](solutions/ivr.md)
 
-* [📱 Sms Brandname](services/sms-brandname.md)
-* [Zalo OA](services/zalo-oa.md)
+## 📊 Hệ thống TCRM
+* [Tổng quan TCRM](tcrm/overview.md)
+* [Quản lý đa kênh (Omnichannel)](tcrm/omnichannel.md)
+* [Hướng dẫn sử dụng nhanh](tcrm/user-guide.md)
 
-## 🛠️ Kỹ thuật & Hệ thống
+## 💬 Tin nhắn thương hiệu
+* [SMS Brandname](messaging/sms-brandname.md)
+* [Zalo OA & ZNS](messaging/zalo-oa.md)
 
-* [Hướng dẫn API](tech/api.md)
+## 💻 Kỹ thuật & API
+* [Hướng dẫn tích hợp API](api/overview.md)
+* [Tài liệu SDK](api/sdk.md)
+
+## 📞 Hỗ trợ & Liên hệ
+* [Hệ thống hỗ trợ 24/7](support.md)

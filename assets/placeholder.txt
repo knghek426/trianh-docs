@@ -1,0 +1,1 @@
+Thêm logo, ảnh minh họa tại thư mục assets/ trước khi public.

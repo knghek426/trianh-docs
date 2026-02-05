@@ -1,17 +1,12 @@
-# 🚀 TriAnh Solutions
+# TriAnh Solutions — Tài liệu hướng dẫn
 
-Chào mừng bạn đến với hệ thống tài liệu chính thức.
+Chào mừng bạn đến với hệ thống tài liệu chính thức của **TriAnh Solutions**. Trang này là trang chủ (entry) khi người dùng mở space trên GitBook.
 
-### 🔗 Truy cập nhanh
-{% grid %}
-{% card title="Dịch vụ SMS" icon="envelope" link="services/sms-brandname.md" %}
-Tích hợp Brandname nhanh chóng.
-{% endcard %}
+## Truy cập nhanh
+- [Giới thiệu TriAnh Solutions](intro/about.md)
+- [Tổng đài ảo CCMS](solutions/ccms.md)
+- [SMS Brandname](messaging/sms-brandname.md)
+- [Hướng dẫn tích hợp API](api/overview.md)
+- [Hỗ trợ & Liên hệ](support.md)
 
-{% card title="Kỹ thuật API" icon="code" link="tech/api.md" %}
-Tài liệu cho Developer.
-{% endcard %}
-{% endgrid %}
-
-> [!INFO]
-> Mọi yêu cầu hỗ trợ, vui lòng liên hệ Hotline: **1900 27 27 77**.
+> Lưu ý: cập nhật hotline, email, endpoint thực tế trước khi public.
