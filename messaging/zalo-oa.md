@@ -1,4 +1,6 @@
-# Zalo OA & ZNS
+---
+description: Hướng dẫn chi tiết quy trình khởi tạo và quản lý Template ZBS trên hệ thống CRM TriAnh.
+---
 
 Zalo OA (Official Account) và ZNS (Zalo Notification Service) dùng để gửi tin nhắn đã được Zalo phê duyệt tới người dùng: thông báo giao dịch, OTP, nhắc thanh toán, chăm sóc khách hàng.
 
@@ -35,7 +37,9 @@ Template ZBS được sử dụng cho:
 
 ***
 
-## Lịch sử cập nhật
+### Bước 1: Truy cập quản trị
+Tại giao diện Dashboard CRM, bạn di chuyển theo lộ trình sau:
+`Menu chính` > `Cấu hình` > **Mẫu Email, SMS, ZNS**
 
 | Ngày       | Người cập nhật | Version | Mô tả                 |
 | ---------- | -------------- | ------- | --------------------- |
