@@ -13,9 +13,9 @@
 * [Quản lý đa kênh (Omnichannel)](tcrm/omnichannel.md)
 * [Hướng dẫn sử dụng nhanh](tcrm/user-guide.md)
 
-## 💬 Tin nhắn thương hiệu
+## 💬 Dịch vụ pháp tin nhắn cho doanh nghiệp
 * [SMS Brandname](messaging/sms-brandname.md)
-* [Zalo OA & ZNS](messaging/zalo-oa.md)
+* [ZBS Template](messaging/zalo-oa.md)
 
 ## 💻 Kỹ thuật & API
 * [Hướng dẫn tích hợp API](api/overview.md)

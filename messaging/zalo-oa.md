@@ -1,11 +1,13 @@
 <div style="border:1px solid #fde2e2; background:#fff5f5; padding:20px; border-radius:12px;">
 <h2 style="margin-top:0">📨 Zalo OA & ZNS</h2>
-<p><strong>Zalo OA (Official Account)</strong> và <strong>ZNS (Zalo Notification Service)</strong> dùng để gửi tin nhắn đã được Zalo phê duyệt tới người dùng:</p>
+<p><strong>ZBS (Zalo Business Solutions) </strong>dùng để gửi tin nhắn qua Zalo và đã được Zalo phê duyệt tới người dùng bao gồm những tin :</p>
 <ul>
 <li>Thông báo giao dịch</li>
-<li>OTP</li>
+<li>Yêu cầu thanh toán</li>
+<li>Tin OTP</li>
 <li>Nhắc thanh toán</li>
 <li>Chăm sóc khách hàng</li>
+<li>Đánh giá dịch vụ</li>
 </ul>
 <p>📌 Tài liệu này tập trung vào <strong>hướng dẫn tạo Template ZBS trên CRM TriAnh</strong>.</p>
 </div>
@@ -17,23 +19,7 @@
 ## Tổng quan
 
 
-Template <strong>ZBS (Zalo Business Service)</strong> là mẫu tin nhắn Zalo được gửi từ Zalo OA của doanh nghiệp tới khách hàng và bắt buộc phải <strong>được Zalo kiểm duyệt</strong> trước khi sử dụng.
-
-
----
-
-
-## Lịch sử cập nhật
-
-
-<table>
-<thead>
-<tr><th>Ngày</th><th>Người cập nhật</th><th>Version</th><th>Mô tả</th></tr>
-</thead>
-<tbody>
-<tr><td>27/01/2026</td><td>Lý Anh Khoa</td><td>Ver 1.0</td><td>Bắt đầu soạn tài liệu</td></tr>
-</tbody>
-</table>
+Template <strong>ZBS (Zalo Business Solutions)</strong> là mẫu tin nhắn Zalo được gửi từ Zalo OA của doanh nghiệp tới khách hàng và bắt buộc phải <strong>được Zalo kiểm duyệt</strong> trước khi sử dụng.
 
 
 ---
