@@ -40,8 +40,11 @@ Template **ZBS (Zalo Business Solutions)** là mẫu tin nhắn Zalo được g�
 <div style="border:1px solid #eee; border-radius:12px; padding:20px; margin:24px 0;">
 <h3 style="margin-top:0">🔹 Bước 2: Khởi tạo</h3>
 <ol>
-<li>Click vào biểu tượng <strong>Zalo</strong>.</li>
-<li>Nhấn nút <strong>Tạo mới</strong> để tạo bản mẫu Zalo ZBS.</li>
+<li>Click vào biểu tượng <strong>Dấu +</strong>.</li>
+<li>Nhấn nút <strong>Tạo bản mẫu Zalo ZBS</strong> để khởi tạo template .</li>
+<img src="../assets/zbs/khoi-tao-template.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+
+<p style="font-size:14px; color:#666;">Hình 2: Khởi tạo template</p>
 </ol>
 </div>
 
@@ -54,20 +57,30 @@ Template **ZBS (Zalo Business Solutions)** là mẫu tin nhắn Zalo được g�
 <li><strong>Nguồn liên hệ:</strong> Chọn đúng Zalo OA của mình.</li>
 <li><strong>Loại ZBS:</strong> Chọn "Mẫu Tùy Chỉnh".</li>
 <li><strong>Mục đích:</strong> Chọn mục đích gửi tương ứng.</li>
+<img src="../assets/zbs/thong-tin-co-ban.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+
+<p style="font-size:14px; color:#666;">Hình 3: Nhập thông tin cơ bản</p>
 </ul>
 
 <h4>🖼 Nội dung hiển thị</h4>
 <ul>
-<li><strong>Logo:</strong> Xử lý ảnh kích thước <strong>400x96 px</strong> trước khi upload.</li>
-<li><strong>Tiêu đề & Văn bản:</strong> Biến số phải đặt trong dấu <code>{}</code>. <em>Lưu ý: Phải nhập tối thiểu 1 ô văn bản.</em></li>
+<li><strong>Logo:</strong> Xử lý ảnh kích thước <strong>400x96 px và xóa background </strong> trước khi upload.</li>
+<li><strong>Tiêu đề & Văn bản:</strong> Biến phải đặt trong dấu <code>{} nếu có</code>. <em>Lưu ý: Phải nhập tối thiểu 1 ô văn bản và tiêu đề.</em></li>
 <li><strong>Phần Bảng:</strong> "Tiêu đề" là tên biến, "Nội dung" là giá trị biến (đặt trong <code>{}</code>).</li>
 <li><strong>Nút thao tác:</strong> Tùy chọn thêm nếu cần dẫn link.</li>
 <li><strong>Tham số:</strong> Tuyệt đối <strong>không bỏ dấu ngoặc <code>{}</code></strong> ở phần này.</li>
 <li><strong>Ghi chú kiểm duyệt:</strong> Điền nội dung bất kỳ để hỗ trợ admin Zalo duyệt (VD: "Template dùng để xác nhận đơn hàng").</li>
 <li><strong>Mã tracking:</strong> Đây là mã tự sinh từ hệ thống.</li>
+<img src="../assets/zbs/dien-cac-truong-thong-tin-khac.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+
+<p style="font-size:14px; color:#666;">Hình 4: Thêm logo, nhập tiêu đề và văn bản</p>
+
+<img src="../assets/zbs/dien-cac-truong-thong-tin-khac-2.png" style="width:100%; max-width:900px; border-radius:8px; border:1px solid #eee; margin-top:12px;" />
+
+<p style="font-size:14px; color:#666;">Hình 5: Nhập các trường còn lại theo lưu ý</p>
 </ul>
 
-<p>👉 Kiểm tra lại và nhấn nút <strong>Lưu</strong> để đẩy lên Zalo.</p>
+<p>👉 Kiểm tra lại và nhấn nút <strong>Tạo</strong> để đẩy lên Zalo.</p>
 </div>
 
 ---

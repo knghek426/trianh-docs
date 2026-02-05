@@ -10,10 +10,10 @@ SMS Brandname cho phép gửi tin nhắn với tên thương hiệu (sender name
 
 ## Mẫu request (curl)
 ```bash
-curl -X POST "https://api.trianh.vn/v1/sms/send" \
+curl -X POST "https://domain/apisupport/send/" \
   -H "Authorization: Bearer <API_KEY>" \
   -H "Content-Type: application/json" \
-  -d '{"from":"TRIANH","to":["849xxxxxxxx"],"message":"Ma OTP cua ban la 123456"}'
+  -d '{"src":"TRIANH","to":["849xxxxxxxx"],"message":"Ma OTP cua ban la 123456"}'
 ```
 
 ## Lưu ý
