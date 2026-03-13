@@ -27,13 +27,13 @@
 
 #### 2. Mục lục
 
-| STT | Nội dung |
-| :-: | :--- |
-| 1 | [Quy trình tạo template ZBS — Mẫu Tùy Chỉnh](#1-quy-trinh-tao-template-zbs-mau-tuy-chinh) |
-| 2 | [Quy trình tạo template ZBS — Mẫu Yêu cầu thanh toán](#2-quy-trinh-tao-template-zbs-mau-yeu-cau-thanh-toan) |
-| 3 | [Quy trình tạo template ZBS — Mẫu Đánh giá dịch vụ](#3-quy-trinh-tao-template-zbs-mau-danh-gia-dich-vu) |
-| 4 | [Quy trình tạo template ZBS — Mẫu Voucher](#4-quy-trinh-tao-template-zbs-mau-voucher) |
-| 5 | [Quy trình tạo template ZBS — Mẫu Xác thực](#5-quy-trinh-tao-template-zbs-mau-xac-thuc) |
+| STT | Nội dung                                                                                                              |
+| :-: | --------------------------------------------------------------------------------------------------------------------- |
+|  1  | [Quy trình tạo template ZBS — Mẫu Tùy Chỉnh](zalo-oa.md#1-quy-trinh-tao-template-zbs-mau-tuy-chinh)                   |
+|  2  | [Quy trình tạo template ZBS — Mẫu Yêu cầu thanh toán](zalo-oa.md#2-quy-trinh-tao-template-zbs-mau-yeu-cau-thanh-toan) |
+|  3  | [Quy trình tạo template ZBS — Mẫu Đánh giá dịch vụ](zalo-oa.md#3-quy-trinh-tao-template-zbs-mau-danh-gia-dich-vu)     |
+|  4  | [Quy trình tạo template ZBS — Mẫu Voucher](zalo-oa.md#4-quy-trinh-tao-template-zbs-mau-voucher)                       |
+|  5  | [Quy trình tạo template ZBS — Mẫu Xác thực](zalo-oa.md#5-quy-trinh-tao-template-zbs-mau-xac-thuc)                     |
 
 ***
 
@@ -45,8 +45,9 @@
 
 Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS, ZNS**.
 
-<img src="../assets/zbs/vao-email-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 1: Truy cập menu Mẫu Email, SMS, ZNS</p>
+![](<../.gitbook/assets/vao-email-template (5).png>)
+
+Hình 1: Truy cập menu Mẫu Email, SMS, ZNS
 
 ***
 
@@ -55,8 +56,9 @@ Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS
 1. Chọn biểu tượng **Dấu +** tại góc giao diện.
 2. Nhấn chọn dòng **Tạo bản mẫu Zalo ZBS**.
 
-<img src="../assets/zbs/khoi-tao-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 2: Thao tác khởi tạo template mới</p>
+![](<../.gitbook/assets/khoi-tao-template (4).png>)
+
+Hình 2: Thao tác khởi tạo template mới
 
 ***
 
@@ -69,8 +71,9 @@ Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS
 * **Loại ZBS:** Chọn **Mẫu Tùy Chỉnh**.
 * **Mục đích:** Lựa chọn mục đích phù hợp (Giao dịch, Thông báo...).
 
-<img src="../assets/zbs/thong-tin-co-ban.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 3: Thiết lập các trường thông tin cơ bản</p>
+![](<../.gitbook/assets/thong-tin-co-ban (4).png>)
+
+Hình 3: Thiết lập các trường thông tin cơ bản
 
 **Nội dung hiển thị & Tham số**
 
@@ -80,11 +83,13 @@ Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS
 * **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`** tại mục này.
 * **Ghi chú kiểm duyệt:** Giải thích ngắn gọn mục đích gửi tin để Zalo duyệt nhanh hơn.
 
-<img src="../assets/zbs/dien-cac-truong-thong-tin-khac.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 4: Thiết lập hình ảnh và nội dung tin nhắn</p>
+![](<../.gitbook/assets/dien-cac-truong-thong-tin-khac (4).png>)
 
-<img src="../assets/zbs/dien-cac-truong-thong-tin-khac-2.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt</p>
+Hình 4: Thiết lập hình ảnh và nội dung tin nhắn
+
+![](<../.gitbook/assets/dien-cac-truong-thong-tin-khac-2 (4).png>)
+
+Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt
 
 👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
 
