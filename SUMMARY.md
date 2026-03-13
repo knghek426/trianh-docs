@@ -17,9 +17,5 @@
 * [SMS Brandname](messaging/sms-brandname.md)
 * [ZBS Template](messaging/zalo-oa.md)
 
-## 💻 Kỹ thuật & API
-* [Hướng dẫn tích hợp API](api/overview.md)
-* [Tài liệu SDK](api/sdk.md)
-
 ## 📞 Hỗ trợ & Liên hệ
 * [Hệ thống hỗ trợ 24/7](support.md)

@@ -47,12 +47,6 @@
 | [TCRM — Tổng quan](../tcrm/overview.md) | Hệ thống CRM tích hợp đa kênh: contact, pipeline, tự động hoá, báo cáo |
 | [Omnichannel TCRM](../tcrm/omnichannel.md) | Hợp nhất mọi kênh liên lạc vào một giao diện agent duy nhất |
 
-### 4. Kỹ thuật & Tích hợp
-
-| Giải pháp | Mô tả |
-| :--- | :--- |
-| [Hướng dẫn tích hợp API](../api/overview.md) | REST API đầy đủ cho SMS, ZNS, Voice và dữ liệu CRM |
-
 ---
 
 ## III. Ngành nghề ứng dụng

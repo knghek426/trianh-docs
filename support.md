@@ -8,4 +8,3 @@
 - Khẩn cấp: gọi hotline
 
 ---
-[Previous](../api/sdk.md)

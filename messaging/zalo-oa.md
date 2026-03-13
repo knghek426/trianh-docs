@@ -17,7 +17,7 @@
 
 ### I. Tổng quan
 
-**TriAnh Solutions** là công ty công nghệ với hơn 16 năm kinh nghiệm, chuyên cung cấp các giải pháp chuyển đổi số cho doanh nghiệp bao gồm: CRM, OmniChannel Contact Center, SMS Brandname, ZNS/ZBS và tích hợp API. Hệ thống CRM của TriAnh tích hợp sẵn tính năng tạo và quản lý **Template ZBS**, giúp doanh nghiệp chủ động gửi thông báo đến khách hàng một cách nhanh chóng và đúng quy định.
+**TriAnh Solutions** là công ty công nghệ với hơn 16 năm kinh nghiệm, chuyên cung cấp các giải pháp chuyển đổi số cho doanh nghiệp bao gồm: CRM, OmniChannel Contact Center, SMS Brandname và ZNS/ZBS. Hệ thống CRM của TriAnh tích hợp sẵn tính năng tạo và quản lý **Template ZBS**, giúp doanh nghiệp chủ động gửi thông báo đến khách hàng một cách nhanh chóng và đúng quy định.
 
 #### 1. Lịch sử cập nhật
 
@@ -45,9 +45,8 @@
 
 Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS, ZNS**.
 
-![](<../.gitbook/assets/vao-email-template (4).png>)
-
-Hình 1: Truy cập menu Mẫu Email, SMS, ZNS
+<img src="../assets/zbs/vao-email-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
+<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 1: Truy cập menu Mẫu Email, SMS, ZNS</p>
 
 ***
 
@@ -56,9 +55,8 @@ Hình 1: Truy cập menu Mẫu Email, SMS, ZNS
 1. Chọn biểu tượng **Dấu +** tại góc giao diện.
 2. Nhấn chọn dòng **Tạo bản mẫu Zalo ZBS**.
 
-![](<../.gitbook/assets/khoi-tao-template (3).png>)
-
-Hình 2: Thao tác khởi tạo template mới
+<img src="../assets/zbs/khoi-tao-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
+<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 2: Thao tác khởi tạo template mới</p>
 
 ***
 
@@ -71,9 +69,8 @@ Hình 2: Thao tác khởi tạo template mới
 * **Loại ZBS:** Chọn **Mẫu Tùy Chỉnh**.
 * **Mục đích:** Lựa chọn mục đích phù hợp (Giao dịch, Thông báo...).
 
-![](<../.gitbook/assets/thong-tin-co-ban (3).png>)
-
-Hình 3: Thiết lập các trường thông tin cơ bản
+<img src="../assets/zbs/thong-tin-co-ban.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
+<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 3: Thiết lập các trường thông tin cơ bản</p>
 
 **Nội dung hiển thị & Tham số**
 
@@ -83,13 +80,11 @@ Hình 3: Thiết lập các trường thông tin cơ bản
 * **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`** tại mục này.
 * **Ghi chú kiểm duyệt:** Giải thích ngắn gọn mục đích gửi tin để Zalo duyệt nhanh hơn.
 
-![](<../.gitbook/assets/dien-cac-truong-thong-tin-khac (3).png>)
+<img src="../assets/zbs/dien-cac-truong-thong-tin-khac.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
+<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 4: Thiết lập hình ảnh và nội dung tin nhắn</p>
 
-Hình 4: Thiết lập hình ảnh và nội dung tin nhắn
-
-![](<../.gitbook/assets/dien-cac-truong-thong-tin-khac-2 (3).png>)
-
-Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt
+<img src="../assets/zbs/dien-cac-truong-thong-tin-khac-2.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
+<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt</p>
 
 👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
 
@@ -199,4 +194,4 @@ _📸 \[Hình ảnh giao diện thiết lập Mẫu Xác thực — sẽ bổ su
 
 ***
 
-[← SMS Brandname](sms-brandname.md) [Hướng dẫn API →](../api/overview.md)
+[← SMS Brandname](sms-brandname.md)

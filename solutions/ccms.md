@@ -97,7 +97,7 @@ Dùng hạ tầng Cloud, không cần đầu tư phần cứng. Chi phí linh ho
 2. **Cấu hình hệ thống** — Thiết lập route, extension nội bộ, nhóm agent trên dashboard.
 3. **Thiết lập kịch bản IVR** — Xây dựng menu thoại, phân luồng theo bộ phận.
 4. **Thiết lập hàng đợi (Queue)** — Cấu hình luật phân phối và số agent tối thiểu.
-5. **Tích hợp CRM** — Kết nối Webhook/API với TCRM để đồng bộ contact và lịch sử tương tác.
+5. **Tích hợp CRM** — Kết nối chặt chẽ với TCRM để đồng bộ contact và lịch sử tương tác.
 6. **Đào tạo & vận hành** — TriAnh hỗ trợ đào tạo agent và vận hành 24/7.
 
 </div>

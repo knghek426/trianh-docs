@@ -58,7 +58,6 @@ TriAnh Solutions cung cấp 2 loại SMS Brandname chính:
 | 📱 Tương thích thiết bị | Tất cả điện thoại di động hiện nay đều nhận được |
 | 🔁 Tin nhắn phản hồi | Hỗ trợ nhận **reply từ khách hàng** (đối với SMS đầu số dài) |
 | 📊 Trạng thái gửi | `DELIVERED` / `FAILED` / `QUEUED` — theo dõi theo thời gian thực |
-| 🔗 Tích hợp | Hỗ trợ **API & SDK** để tích hợp vào hệ thống doanh nghiệp |
 | 📈 Báo cáo | Thống kê chi tiết theo chiến dịch, theo số điện thoại |
 
 ---
@@ -79,32 +78,7 @@ TriAnh Solutions cung cấp 2 loại SMS Brandname chính:
 
 ---
 
-## V. Mẫu tích hợp API
-
-```bash
-curl -X POST "https://api.trianh.vn/v1/sms/send" \
-  -H "Authorization: Bearer <API_KEY>" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "src": "TRIANH",
-    "to": ["849xxxxxxxx"],
-    "message": "Ma OTP cua ban la 123456. Hieu luc trong 5 phut."
-  }'
-```
-
-**Response mẫu:**
-```json
-{
-  "status": "success",
-  "message_id": "MSG_20260113_001",
-  "to": "849xxxxxxxx",
-  "delivery_status": "QUEUED"
-}
-```
-
----
-
-## VI. Lưu ý quan trọng
+## V. Lưu ý quan trọng
 
 > ⚠️ **Brandname phải hợp lệ theo quy định nhà mạng.** Tên đăng ký không được vi phạm bản quyền, không được gây hiểu lầm về tổ chức nhà nước.
 
@@ -112,8 +86,7 @@ curl -X POST "https://api.trianh.vn/v1/sms/send" \
 
 > ⚠️ **SMS quảng cáo** không được gửi cho khách đã đăng ký "không làm phiền" với nhà mạng. Hệ thống TriAnh tự động lọc danh sách này.
 
-<!-- TODO: Bổ sung hình ảnh giao diện tạo và gửi chiến dịch SMS Brandname trên CRM -->
-<p><em>📸 [Hình ảnh giao diện gửi chiến dịch SMS Brandname — sẽ bổ sung sau]</em></p>
+_📸 [Hình ảnh giao diện gửi chiến dịch SMS Brandname — sẽ bổ sung sau]_
 
 ---
 
