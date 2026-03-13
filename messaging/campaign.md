@@ -1,73 +1,79 @@
-# Chiến dịch Tự động (Gateway)
+# Hướng dẫn tạo Template CSKH và gửi chiến dịch A.C tại các đơn vị
 
-Tính năng Chiến dịch Tự động cho phép Quản trị viên khởi tạo và gửi hàng loạt tin nhắn thông báo chăm sóc khách hàng (CSKH) dựa trên dữ liệu từ file Excel.
+*Hướng dẫn nãy dùng để các đơn vị sẽ tạo chiến dịch gửi tin thông báo cho Khách hàng (ví dụ sử dụng app SAWACO).*
 
-## Điều kiện tiên quyết
+## 1. Tạo Mẫu tin và Mẫu tin Gateway trên trang TCRM của đơn vị
 
-* [ ] File Excel chứa danh sách thông tin người nhận (Có thể tải về tệp biểu mẫu gốc trong hệ thống).
-* [ ] Các thông tin và biến dữ liệu (như Tên KH, Số danh bộ, v.v...) đã được khai báo chuẩn trong file Excel.
-* [ ] Tài khoản người dùng được cấp quyền truy cập Quản trị viên (Admin) hoặc Chăm sóc khách hàng.
+### a) Tạo mẫu tin trong danh sách mẫu tin
 
-***
+- **Bước 1**: Vào **Quản lý** -> **Cài đặt** -> **Chức năng mới** -> **Danh sách mẫu tin**
+![Quản lý Cài đặt](../assets/extracted_images/chien_dich_cskh/image1.png)
+![Danh sách mẫu tin](../assets/extracted_images/chien_dich_cskh/image2.png)
 
-## 1. Tạo Mẫu nội dung (Template)
+- **Bước 2**: Click vào nút hình dấu **+** để tạo mẫu tin
+![Tạo mẫu tin](../assets/extracted_images/chien_dich_cskh/image3.png)
 
-Trước khi gửi chiến dịch, bạn phải tạo Mẫu tin nhắn (Template) và khai báo các biến giá trị tương ứng.
+- **Bước 3**: Gồm có các thông tin cần điền vào template như sau:
+  - **Mã template**: Điền tên của template.
+  - **VMG Template ID**: Điền id muốn đặt.
+  - **Chủ đề**: Điền chủ đề cần gửi vào đây.
+  - **Loại gửi**: CSKH App.
+  - **Nguồn liên hệ**: Thông báo.
+  - **Nội dung**: Điền thông tin nội dung của tin nhắn và gán biến vào nội dung dưới dạng ví dụ `{tenkh}`, `{sodanhbo}`.
+  - **File**: Click vào để add file vào template.
+  - **Tổ chức và Người dùng**: Chọn theo đơn vị.
+![Điền thông tin Template 1](../assets/extracted_images/chien_dich_cskh/image4.png)
+![Điền thông tin Template 2](../assets/extracted_images/chien_dich_cskh/image5.png)
+![Điền thông tin Template 3](../assets/extracted_images/chien_dich_cskh/image6.png)
+![Điền thông tin Template 4](../assets/extracted_images/chien_dich_cskh/image7.png)
 
-### Bước 1: Khởi tạo danh sách Mẫu tin
+  - **Chuẩn bị file excel như sau**:
+![File excel mẫu 1](../assets/extracted_images/chien_dich_cskh/image8.png)
+![File excel mẫu 2](../assets/extracted_images/chien_dich_cskh/image9.png)
 
-1. Nhấp chọn menu **Quản lý** > **Cài đặt**. ![Truy cập Cài đặt](<../.gitbook/assets/image1 (1).png>)
-2. Chọn **Chức năng mới** > **Danh sách mẫu tin**. ![Chọn Danh sách mẫu tin](<../.gitbook/assets/image2 (1).png>)
-3. Nhấp biểu tượng **Dấu cộng (+)** để thêm mẫu tin nhắn mới. ![Nút tạo Mẫu tin](../.gitbook/assets/image3.png)
-4. Điền đầy đủ các thông số trong bảng dưới đây:
+- **Bước 5**: Cấu hình biến của file excel sau khi đã tạo xong template
+  - Click vào tên template vừa mới tạo.
+  - Bấm vào nút **cấu hình**.
+  - Mặc định là các biến sẽ là ignore, nhấn vào để gán lại cho đúng biến.
+![Cấu hình biến Excel 1](../assets/extracted_images/chien_dich_cskh/image10.png)
+  - Sau đó nhấn **Lưu** để lưu lại.
+![Lưu cấu hình biến Excel](../assets/extracted_images/chien_dich_cskh/image11.png)
 
-| Tên thông số           | Mô tả & Cách điền                                                                                                                                                          |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mã template**        | Tên gợi nhớ của Template (ví dụ: `Thong_bao_nuoc_Q1`).                                                                                                                     |
-| **VMG Template ID**    | ID hệ thống hoặc ID nhà cung cấp phát hành.                                                                                                                                |
-| **Chủ đề**             | Tiêu đề hoặc nội dung chính cần nhắc đến.                                                                                                                                  |
-| **Loại gửi**           | Chọn phương thức gửi (VD: **CSKH App**).                                                                                                                                   |
-| **Nguồn liên hệ**      | Chọn **Thông báo** (hoặc tuỳ chọn phù hợp).                                                                                                                                |
-| **Nội dung**           | Văn bản hiển thị cho khách hàng. **Lưu ý:** Nếu có trường dữ liệu động, đặt tên biến trong dấu ngoặc nhọn `{}` (VD: `Xin chào {tenkh}, Số danh bộ của bạn là {sodanhbo}`). |
-| **File đính kèm**      | Nhấp vào **biểu tượng File** nếu cần đính kèm tài liệu vào tin nhắn.                                                                                                       |
-| **Tổ chức/Người dùng** | Chọn phân quyền Đơn vị hoặc Nhân sự phụ trách mẫu này.                                                                                                                     |
+### b) Tạo Mẫu tin Gateway để gửi chiến dịch
 
-5. Sau khi nhập thông tin, nhấn **Lưu** để khởi tạo Template. ![Điền thông số Mẫu tin](<../.gitbook/assets/image4 (1).png>) ![Chi tiết Nội dung và Tổ chức](<../.gitbook/assets/image5 (1).png>)
+- **Bước 1**: Click vào **Quản lý** -> **Cài đặt** -> **Mẫu Email & SMS** -> **Mẫu tin Gateway**
+![Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image12.png)
 
-### Bước 2: Cấu hình ánh xạ biến (Excel Mapping)
+- **Bước 2**: Click vào nút tạo để tạo mẫu Gateway
+![Tạo Gateway](../assets/extracted_images/chien_dich_cskh/image13.png)
 
-1. Từ **Danh sách mẫu tin**, nhấp vào tên Template bạn vừa tạo.
-2. Tại màn hình chi tiết, nhấp biểu tượng **Cấu hình**.
-3. Hệ thống sẽ liệt kê các cột ánh xạ từ file Excel lên các cột biến. Ban đầu, các trạng thái đều mặc định là **Ignore (Bỏ qua)**.
-4. Chọn mũi tên thả xuống để **gán lại (map) từng cột Excel tương ứng** với các biến động `{}` được khai báo. ![Giao diện Ánh xạ biến Excel](../.gitbook/assets/image10.png)
-5. Nhấn **Lưu (biểu tượng đĩa mềm)** để hoàn tất gán biến. ![Lưu cấu hình biến](../.gitbook/assets/image11.png)
+- **Bước 3**: Điền các thông tin giống với lúc tạo mẫu tin ở danh sách mẫu tin. **Template CSKH** chọn template vừa mới tạo, **Người dùng**: Chọn người dùng cần thấy để gửi chiến dịch.
+![Thông tin Gateway](../assets/extracted_images/chien_dich_cskh/image14.png)
 
-***
+- **Bước 4**: Nhấn nút **Lưu** để tạo mẫu tin Gateway thành công.
+![Lưu Gateway](../assets/extracted_images/chien_dich_cskh/image15.png)
 
-## 2. Tạo Mẫu tin Gateway
+## 2. Tạo và gửi chiến dịch CSKH tại trang TCRM của đơn vị
 
-Mẫu tin Gateway đóng vai trò kết nối trực tiếp Mẫu tin nhắn ở Bước 1 vào luồng Chiến dịch Tự động.
+- **Bước 1**: Click vào **Khách hàng** -> **Chiến dịch tự động** -> **Quản lý chiến dịch**.
+![Quản lý chiến dịch](../assets/extracted_images/chien_dich_cskh/image16.png)
 
-1. Bấm lại menu **Quản lý** > **Cài đặt**.
-2. Chọn **Mẫu Email & SMS** > **Mẫu tin Gateway**. ![Chọn Mẫu tin Gateway](../.gitbook/assets/image12.png)
-3. Nhấp biểu tượng **Dấu cộng (+)** để phân đoạn mẫu mới. ![Tạo mới Gateway](../.gitbook/assets/image13.png)
-4. Điền thông tin tương tự:
-   * Tại dòng **Template CSKH**, hãy chọn đúng Mẫu tin bạn đã thiết lập ở Phần 1.
-   * Tại dòng **Người dùng**, chọn tài khoản nhân viên được phép chạy chiến dịch này.
-5. Nhấp nút **Lưu (biểu tượng đĩa mềm)**. ![Thông tin Mẫu tin Gateway](../.gitbook/assets/image14.png) ![Lưu Mẫu tin Gateway](../.gitbook/assets/image15.png)
+- **Bước 2**: Click vào nút dấu **+** để tạo chiến dịch
+![Tạo chiến dịch](../assets/extracted_images/chien_dich_cskh/image17.png)
 
-***
+- **Bước 3**: Có các thông tin cần chọn như sau:
+  - **Loại**: Chọn loại tin cần gửi (ở đây là **Gateway**).
+![Cấu hình chiến dịch 1](../assets/extracted_images/chien_dich_cskh/image18.png)
+  - **Biểu mẫu**: Chọn biểu mẫu cần gửi.
+![Cấu hình chiến dịch 2](../assets/extracted_images/chien_dich_cskh/image19.png)
+  - **Dowload template**: Tải File excel về nếu chưa có.
+![Download template](../assets/extracted_images/chien_dich_cskh/image20.png)
+![Upload file button](../assets/extracted_images/chien_dich_cskh/image21.png)
+  - Click vào biểu tượng Upload để đẩy file lên.
+![Cấu hình upload file](../assets/extracted_images/chien_dich_cskh/image22.png)
+  - Nhấn nút **Lưu** để bắt đầu tạo chiến dịch.
+![Lưu Chiến dịch](../assets/extracted_images/chien_dich_cskh/image23.png)
 
-## 3. Tạo và Kích hoạt Chiến dịch Gửi tin
-
-1. Từ thanh menu chính, chọn **Khách hàng** > **Chiến dịch tự động**.
-2. Nhấp chọn mục **Quản lý chiến dịch**. ![Truy cập Quản lý Chiến dịch](../.gitbook/assets/image16.png)
-3. Nhấp biểu tượng **Dấu cộng (+)** để tạo dự án thông báo mới. ![Nút tạo chiến dịch mới](../.gitbook/assets/image17.png)
-4. Tại Form tạo Chiến dịch, thực hiện:
-   * **Loại:** Chọn **Gateway**.
-   * **Biểu mẫu:** Chọn **Mẫu tin Gateway** bạn vừa thao tác ở Phần 2.
-   * **Tải lên File dữ liệu:** Nhấp vào biểu tượng chức năng **Upload** để tải Data KH (File Excel) lên hệ thống. _(Nhấp nút `Download template` nếu cần lấy cấu trúc cột cơ bản để làm lại file Excel)._
-5. Nhấp nút **Lưu** để chuyển chiến dịch sang trạng thái Sẵn sàng. ![Điền form Chiến dịch mới](../.gitbook/assets/image18.png) ![Nút Upload tải File dữ liệu](../.gitbook/assets/image22.png) ![Lưu Chiến dịch](../.gitbook/assets/image23.png)
-6. Khi cần tiến hành gửi thực tế, nhấp vào nút **Play (Kích hoạt - ▻)** trên danh sách tại dòng của chiến dịch. ![Nút Play Kích hoạt chiến dịch](../.gitbook/assets/image24.png) ![Trạng thái Chiến dịch Đang chạy](../.gitbook/assets/image25.png)
-
-Ngay sau khi ấn Play, hệ thống sẽ tự động đối chiếu các biến ánh xạ và gọi thông báo tới Khách hàng. Hãy tải thử chiến dịch test cho 1-2 Khách hàng nội bộ để kiểm tra tỷ lệ đối chiếu biến `{}` thành công, trước khi thực hiện cho tệp Data lớn.
+- **Bước 4**: Sau khi lưu xong, nhấn vào nút “play” để bắt đầu gửi chiến dịch.
+![Nút Play](../assets/extracted_images/chien_dich_cskh/image24.png)
+![Gửi chiến dịch](#](../assets/extracted_images/chien_dich_cskh/image25.png)

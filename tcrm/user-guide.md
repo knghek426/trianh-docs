@@ -1,48 +1,42 @@
-# Hướng dẫn sử dụng nhanh
+# Hướng dẫn gửi Đánh giá Cuộc gọi
 
-Tính năng Đánh giá cuộc gọi cho phép Nhân viên (Agent) chủ động gửi tin nhắn khảo sát chất lượng dịch vụ đến tài khoản Zalo của Khách hàng ngay sau khi kết thúc cuộc gọi trên hệ thống tổng đài TCRM.
+Tính năng đánh giá cuộc gọi cho phép nhân viên gửi đánh giá chất lượng dịch vụ đến Khách Hàng sau khi kết thúc cuộc gọi.
 
 ## Điều kiện tiên quyết
+- [ ] Đã đăng nhập vào hệ thống tổng đài TCRM.
+- [ ] Có quyền truy cập menu Call Center Info và Báo cáo.
 
-* [ ] Tài khoản người dùng được cấp quyền truy cập module **Call Center Info**.
-* [ ] Hệ thống TCRM đã được tích hợp và kết nối thành công với Zalo OA của doanh nghiệp.
+## I. Truy cập vào trang quản lý tổng đài
 
-## Hướng dẫn thao tác
+1. Truy cập đường dẫn: `<domain>.tcrm.vn`.
+2. Tại giao diện chính, chọn **Call Center Info** ở góc trái màn hình.
+![Giao diện chính - Call Center Info](../assets/extracted_images/danh_gia_cuoc_goi/image1.png)
 
-### Bước 1: Truy cập Lịch sử cuộc gọi
+3. Nhấn vào mục **Lịch sử cuộc gọi** để truy cập vào danh sách cuộc gọi đến từ Khách Hàng.
+![Mục Lịch sử cuộc gọi](../assets/extracted_images/danh_gia_cuoc_goi/image2.png)
 
-1. Đăng nhập vào trang quản trị TCRM theo đường dẫn: `<domain>.tcrm.vn`. ![Giao diện chọn tổng đài](../.gitbook/assets/image1.png)
-2. Tại menu điều hướng bên trái màn hình, nhấp chọn **Call Center Info**.
-3. Nhấp chọn mục **Lịch sử cuộc gọi** để tải danh sách các cuộc gọi tương tác với Khách hàng. ![Màn hình Chọn lịch sử cuộc gọi](../.gitbook/assets/image2.png)
+## II. Thực hiện gửi đánh giá cho Khách Hàng
 
-### Bước 2: Gửi yêu cầu đánh giá
+1. Ở trang **Lịch sử cuộc gọi**, tìm số điện thoại của Khách Hàng vừa gọi đến tổng đài.
+2. Tại cột **Đánh giá**, nhấn vào nút mũi tên để mở ô nhập thông tin.
+![Nút mũi tên gửi đánh giá](../assets/extracted_images/danh_gia_cuoc_goi/image3.png)
 
-1. Trong danh sách **Lịch sử cuộc gọi**, xác định vị trí cuộc gọi của Khách hàng cần khảo sát.
-2. Tại cột **Đánh giá** tương ứng với cuộc gọi đó, nhấp vào biểu tượng **Mũi tên** để mở ô nhập văn bản. ![Nút mở gửi đánh giá](<../.gitbook/assets/image3 (1).png>)
-3. Nhập nội dung thông điệp muốn nhắn gửi cho Khách hàng vào ô trống.
-4. Nhấp nút **Gửi**. ![Ô Nhập Text Gửi đánh giá](../.gitbook/assets/image4.png)
+3. Nhập nội dung muốn gửi cho Khách Hàng.
+4. Nhấn nút **Gửi** để hệ thống gửi nội dung đánh giá đến Zalo của Khách Hàng.
+![Ô nhập nội dung và nút Gửi](../assets/extracted_images/danh_gia_cuoc_goi/image4.png)
 
-{% hint style="success" %}
-Hệ thống sẽ tự động gửi thông báo chứa nội dung đánh giá trực tiếp đến Zalo của Khách hàng. Khách hàng có thể thao tác chọn điểm số và gửi phản hồi ngay trên ứng dụng Zalo của họ.
-{% endhint %}
+## III. Khách Hàng phản hồi đánh giá
 
-![Giao diện tin nhắn phía Khách hàng Zalo](../.gitbook/assets/image5.png) ![Khách hàng phản hồi từ Zalo](../.gitbook/assets/image6.png)
+Sau khi gửi thành công, Khách Hàng sẽ nhận được nội dung đánh giá qua Zalo.
+![Tin nhắn đánh giá trên Zalo](../assets/extracted_images/danh_gia_cuoc_goi/image5.png)
 
-## Hướng dẫn theo dõi Kết quả đánh giá
+Khách Hàng có thể phản hồi trực tiếp trên Zalo.
+![Phản hồi của Khách Hàng trên Zalo](../assets/extracted_images/danh_gia_cuoc_goi/image6.png)
 
-Sau khi Khách hàng thực hiện phản hồi trên Zalo, hệ thống sẽ tự động ghi nhận lại kết quả. Quản trị viên và Agent có thể tra cứu theo 2 cách sau:
+## IV. Xem lại kết quả đánh giá từ Khách Hàng
 
-**Cách 1: Xem tra cứu nhanh (Agent)**
+Vào mục **Báo cáo** trên thanh menu. Chọn **Báo cáo chiến dịch** → **Báo cáo chiến dịch đánh giá từ Zalo**. Tại đây, bạn có thể theo dõi toàn bộ phản hồi đánh giá từ Khách Hàng.
+![Báo cáo chiến dịch đánh giá từ Zalo](../assets/extracted_images/danh_gia_cuoc_goi/image7.png)
 
-Kết quả đánh giá chi tiết của Khách hàng sẽ được cập nhật và hiển thị trực tiếp tại cột **Đánh giá** ngay trên màn hình **Lịch sử cuộc gọi**. ![Màn hình hiển thị kết quả đánh giá](../.gitbook/assets/image8.png)
-
-**Cách 2: Xem thống kê tổng hợp (Supervisor/Admin)**
-
-1. Tại thanh menu chính, nhấp chọn **Báo cáo**.
-2. Nhấp chọn mục **Báo cáo chiến dịch**.
-3. Chọn tiếp **Báo cáo chiến dịch đánh giá từ Zalo**.
-4. Màn hình phân tích sẽ hiển thị toàn bộ danh sách khách hàng đã đánh giá và thống kê tỷ lệ hài lòng. ![Màn hình Báo cáo chiến dịch](../.gitbook/assets/image7.png)
-
-{% hint style="info" %}
-Tính năng Báo cáo chiến dịch giúp người Quản lý (Supervisor) dễ dàng đo lường chất lượng phục vụ của từng Agent theo khoảng thời gian thực.
-{% endhint %}
+Lúc này ở phần **Lịch sử cuộc gọi** cũng sẽ hiển thị đánh giá của Khách Hàng luôn.
+![Hiển thị đánh giá tại Lịch sử cuộc gọi](../assets/extracted_images/danh_gia_cuoc_goi/image8.png)
