@@ -1,0 +1,135 @@
+
+
+=================================
+--- Reading 1.0. USER-GUIDE _ Hướng dẫn tạo template ZBS trên CRM.docx ---
+=================================
+
+Hướng dẫn tạo template ZBS trên CRMHướng dẫn tạo template ZBS trên CRMVersion 1.0Version 1.0Internal DocumentInternal DocumentTri Anh Solutions Corp.Tri Anh Solutions Corp.h  
+Hướng dẫn tạo template ZBS trên CRM
+Hướng dẫn tạo template ZBS trên CRM
+Version 1.0
+Version 1.0
+Internal Document
+Internal Document
+Tri Anh Solutions Corp.
+Tri Anh Solutions Corp.
+Hướng dẫn tạo template ZBS trên CRMHướng dẫn tạo template ZBS trên CRMTri Anh Solutions Corp.Tri Anh Solutions Corp.
+Hướng dẫn tạo template ZBS trên CRM
+Hướng dẫn tạo template ZBS trên CRM
+Tri Anh Solutions Corp.
+Tri Anh Solutions Corp.
+MỤC LỤC
+Chương I.TỔNG QUAN.4
+1.Lịch sử cập nhật.4
+Chương II.CÁC BƯỚC THỰC HIỆN5
+1. Quy trình tạo template ZBS ( Mẫu Tùy Chỉnh )5
+2. Quy trình tạo template ZBS ( Mẫu Yêu cầu thanh toán)7
+TỔNG QUAN.
+Lịch sử cập nhật.
+Ngày
+Người Cập Nhật
+Version
+Mô tả
+27/01/2026
+Lý Anh Khoa
+Ver1.0
+Bắt đầu
+CÁC BƯỚC THỰC HIỆN
+Hướng dẫn cấu hình template tạo ZBS trên CRM
+1. Quy trình tạo template ZBS ( Mẫu Tùy Chỉnh )
+Bước 1: Click vào hình  => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
+Bước 2: Click vào hình sau đó click vào nút  để tạo bản mẫu Zalo ZBS.
+Bước 3: Điền các thông tin cần thiết như:
+- Điền Tên mẫu ZBS.
+- Chọn Nguồn liên hệ là Zalo OA của mình.
+- Chọn loại ZBS.
+-.Chọn mục đích gửi ZBS.
+- Chọn file logo ảnh ( Xử lý ảnh bên ngoài theo kích thước 400x96 trước khi đưa ảnh lên ).
+- Nhập tiêu đề ( Nếu tiêu đề có biến,  biến phải để trong dấu "{}" ).
+- Nhập văn bản ( Nếu tiêu đề có biến, biến phải để trong dấu "{}" và nhập tối thiểu 1 ô văn bản).
+- Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là tên biến ( Biến phải để trong dấu {} ). Có thể click vào hình dấu  để thêm hàng mới.
+- Nút thao tác ( không bắt buộc ).
+- Nhập Tham số ( không được bỏ ngoặc {} ở phần này ).
+- Ghi chú cho kiểm duyệt có thể điền nội dung bất kì. Ví dụ: Template này dùng để giao dịch.
+- Mã tracking là mã tự sinh.
+- Kiểm tra lại một lượt nữa và nhấn nút  để tạo template và đẩy lên Zalo.
+2. Quy trình tạo template ZBS ( Mẫu Yêu cầu thanh toán)
+Bước 1: Click vào hình  => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
+Bước 2: Click vào hình sau đó click vào nút  để tạo bản mẫu Zalo ZBS.
+Bước 3: Click chọn Loại ZBS Yêu cầu thanh toán => Thêm hình ảnh logo, tiêu đề văn bản như Mẫu Tùy Chỉnh.
+- Cập nhật thông tin thanh toán Zalo OA.
+* Lưu ý: Tài khoản ngân hàng phải đứng tên chính doanh nghiệp sở hữu Zalo OA đó.
+Trường hợp doanh nghiệp sử dụng số tài khoản của doanh nghiệp khác hoặc sử dụng số tài khoản cá nhân khác (không phải chủ sở hữu DN/người đại diện pháp lý của doanh nghiệp) - vui lòng cung cấp được văn bản/hợp đồng thể hiện doanh nghiệp đã ủy quyền thu hộ (cung cấp qua mục ghi chú hoặc qua biểu mẫu: https://go.zalo.me/zbs-support để được hỗ trợ).
+- Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là biến ( Nếu có biến, biến phải để trong dấu {} ). Có thể click vào hình dấu  để thêm hàng mới.
+- Nút thao tác ( không bắt buộc ).
+- Nhập Tham số ( không bỏ ngoặc {} ở phần này ).
+- Ghi chú cho kiểm duyệt có thể điền nội dung bất kì. Ví dụ: Template này dùng để giao dịch.
+- Mã tracking là mã tự sinh.
+- Kiểm tra lại một lượt nữa và nhấn nút  để tạo template và đẩy lên Zalo.
+- Màn hình giao diện template được duyệt và từ chối như sau:
+* Lưu ý: Nếu template bị từ chối, vui lòng tạo lại template khác.
+
+=================================
+--- Reading File hướng dẫn gửi tin đánh giá lịch sử cuộc gọi.docx ---
+=================================
+
+Chức năng đánh giá cuộc gọi
+I. Truy cập vào trang quản lý tổng đài
+Truy cập đường dẫn: <domain>.tcrm.vn
+Tại giao diện chính, chọn Call Center Info ở góc trái màn hình.
+Nhấn vào mục Lịch sử cuộc gọi để truy cập vào danh sách cuộc gọi đến từ Khách Hàng.
+II. Thực hiện gửi đánh giá cho Khách Hàng
+Ở trang Lịch sử cuộc gọi, tìm số điện thoại của Khách Hàng vừa gọi đến tổng đài.
+Tại cột Đánh giá, nhấn vào nút mũi tên để mở ô nhập thông tin.
+Nhập nội dung muốn gửi cho Khách Hàng.
+Nhấn nút Gửi để hệ thống gửi nội dung đánh giá đến Zalo của Khách Hàng.
+III. Khách Hàng phản hồi đánh giá
+Sau khi gửi thành công, Khách Hàng sẽ nhận được nội dung đánh giá qua Zalo.
+Khách Hàng có thể phản hồi trực tiếp trên Zalo.
+       
+IV. Xem lại kết quả đánh giá từ Khách Hàng
+Vào mục Báo cáo trên thanh menu.
+Chọn Báo cáo chiến dịch → Báo cáo chiến dịch đánh giá từ Zalo.
+Tại đây, bạn có thể theo dõi toàn bộ phản hồi đánh giá từ Khách Hàng.
+Lúc này ở phần lịch sử cuộc gọi cũng hiển thị đánh giá của Khách Hàng luôn
+
+=================================
+--- Reading HƯỚNG DẪN TẠO TEMPLATE CSKH VÀ GỬI CHIẾN DỊCH AC.docx ---
+=================================
+
+HƯỚNG DẪN TẠO TEMPLATE CSKH VÀ GỬI CHIẾN DỊCH A.C TẠI CÁC ĐƠN VỊ
+* Hướng dẫn nãy dùng để các đơn vị sẽ tạo chiến dịch gửi tin thông báo cho Khách hàng sử dụng app SAWACO.
+1. Tạo Mẫu tin và Mẫu tin Gateway trên trang TCRM của đơn vị
+a) Tạo mẫu tin trong danh sách mẫu tin
+- Bước 1: Vào Quản lý -> Cài đặt -> Chức năng mới -> Danh sách mẫu tin
+- Bước 2: Click vào nút hình dấu  để tạo mẫu tin
+- Bước 3: Gồm có các thông tin cần điền vào template như sau:
++ Mã template: Điền tên của template.
++ VMG Template ID: Điền id muốn đặt.
++ Chủ đề: Điền chủ đề cần gửi vào đây.
++ Loại gửi: CSKH App.
++ Nguồn liên hệ: Thông báo.
++ Nội dung: Điền thông tin nội dung của tin nhắn và gán biến vào nội dung dưới dạng ví dụ {tenkh}, {sodanhbo}.
++ File: Click vào  để add file vào template.
++ Tổ chức và Người dùng: Chọn theo đơn vị.
++ Chuẩn bị file excel như sau:
+- Bước 5: Cấu hình biến của file excel sau khi đã tạo xong template
++ Click vào tên template vừa mới tạo.
++ Bấm vào nút cấu hình.
++ Mặc định là các biến sẽ là ignore, nhấn vào để gán lại cho đúng biến.
++ Sau đó nhấn  để lưu lại.
+b) Tạo Mẫu tin Gateway để gửi chiến dịch
+- Bước 1: Click vào Quản lý -> Cài đặt -> Mẫu Email & SMS -> Mẫu tin Gateway
+- Bước 2: Click vào  để tạo mẫu Gateway
+- Bước 3: Điền các thông tin giống với lúc tạo mẫu tin ở danh sách mẫu tin. Template CSKH chọn template vừa mới tạo, Người dùng: Chọn người dùng cần thấy để gửi chiến dịch.
+- Bước 4: Nhấn nút để tạo mẫu tin Gateway thành công
+2. Tạo và gửi chiến dịch CSKH tại trang TCRM của đơn vị
+- Bước 1: Click vào Khách hàng -> Chiến dịch tự động -> Quản lý chiến dịch.
+- Bước 2: Click vào nút dấu  để tạo chiến dịch
+- Bước 3: Có các thông tin cần chọn như sau:
++ Loại: Chọn loại tin cần gửi ( ở đây là Gateway ).
++ Biểu mẫu: Chọn biểu mẫu cần gửi.
++ Dowload template: Tải File excel về nếu chưa có.
++ : Click vào đây để đẩy file lên.
++ Nhấn nút  để bắt đầu tạo chiến dịch.
+- Bước 4: Sau khi lưu xong, nhấn vào nút “play” để bắt đầu gửi chiến dịch.

@@ -13,7 +13,8 @@
 * [Quản lý đa kênh (Omnichannel)](tcrm/omnichannel.md)
 * [Hướng dẫn sử dụng nhanh](tcrm/user-guide.md)
 
-## 💬 Dịch vụ pháp tin nhắn cho doanh nghiệp
+## 💬 Dịch vụ tin nhắn cho doanh nghiệp
+* [Chiến dịch Tự động (Gateway)](messaging/campaign.md)
 * [SMS Brandname](messaging/sms-brandname.md)
 * [ZBS Template](messaging/zalo-oa.md)
 

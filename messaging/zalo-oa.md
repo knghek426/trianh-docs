@@ -1,197 +1,156 @@
-# ZBS Template
+# Hướng dẫn tạo Template ZBS
 
-### 📨 ZBS Template Message
+**ZBS (Zalo Business Solutions)** là giải pháp gửi tin nhắn thông báo tự động từ Zalo OA tới người dùng đã được Zalo phê duyệt. Tính năng này trên TCRM giúp Quản trị viên khởi tạo và nộp duyệt các mẫu cấu trúc tin nhắn trực tiếp với Zalo.
 
-**ZBS (Zalo Business Solutions)** là giải pháp gửi tin nhắn thông báo từ Zalo OA tới người dùng đã được Zalo phê duyệt. Các loại tin nhắn bao gồm:
+## Điều kiện tiên quyết
 
-* Thông báo giao dịch
-* Yêu cầu thanh toán
-* Tin mã OTP
-* Nhắc lịch thanh toán
-* Chăm sóc khách hàng
-* Đánh giá dịch vụ
+- [ ] Tài khoản Zalo OA của doanh nghiệp đã được xác thực và kết nối thành công với hệ thống hệ sinh thái TCRM.
+- [ ] Tài khoản người dùng có quyền Quản trị viên (Admin) để truy cập menu cài đặt.
+- [ ] Tệp hình ảnh Logo thương hiệu chuẩn kích thước **400x96 px** (Yêu cầu nền trong suốt/xóa phông nền).
 
-📌 Tài liệu này hướng dẫn chi tiết **quy trình tạo Template ZBS trên hệ thống CRM TriAnh**.
+---
 
-***
+## 1. Quy trình tạo Mẫu Tùy Chỉnh
 
-### I. Tổng quan
+Mẫu Tùy Chỉnh là loại template cơ bản dùng để gửi các thông báo thông thường, giao dịch hoặc chăm sóc khách hàng.
 
-**TriAnh Solutions** là công ty công nghệ với hơn 16 năm kinh nghiệm, chuyên cung cấp các giải pháp chuyển đổi số cho doanh nghiệp bao gồm: CRM, OmniChannel Contact Center, SMS Brandname và ZNS/ZBS. Hệ thống CRM của TriAnh tích hợp sẵn tính năng tạo và quản lý **Template ZBS**, giúp doanh nghiệp chủ động gửi thông báo đến khách hàng một cách nhanh chóng và đúng quy định.
+### Bước 1: Khởi tạo bản mẫu mới
 
-#### 1. Lịch sử cập nhật
+1. Tại giao diện chính của CRM, nhấp chọn biểu tượng **Mẫu Email, SMS, ZNS** trên menu hệ thống.
+2. Nhấp chọn biểu tượng **Dấu cộng (+)** ở góc giao diện để thêm mới.
+3. Nhấp chọn **Tạo bản mẫu Zalo ZBS** trong danh sách đổ xuống.
 
-| Ngày       | Người Cập Nhật | Version | Mô tả                       |
-| ---------- | -------------- | ------- | --------------------------- |
-| 27/01/2026 | Lý Anh Khoa    | Ver 1.0 | Khởi tạo tài liệu hướng dẫn |
+![Hình 1](../assets/extracted_images/zbs_crm/image1.png)
+*Hình 1: Truy cập menu Mẫu Email, SMS, ZNS*
 
-#### 2. Mục lục
+![Hình 2](../assets/extracted_images/zbs_crm/image2.png)
+*Hình 2: Thao tác khởi tạo template mới*
 
-| STT | Nội dung |
-| :-: | :--- |
-| 1 | [Quy trình tạo template ZBS — Mẫu Tùy Chỉnh](#1-quy-trinh-tao-template-zbs-mau-tuy-chinh) |
-| 2 | [Quy trình tạo template ZBS — Mẫu Yêu cầu thanh toán](#2-quy-trinh-tao-template-zbs-mau-yeu-cau-thanh-toan) |
-| 3 | [Quy trình tạo template ZBS — Mẫu Đánh giá dịch vụ](#3-quy-trinh-tao-template-zbs-mau-danh-gia-dich-vu) |
-| 4 | [Quy trình tạo template ZBS — Mẫu Voucher](#4-quy-trinh-tao-template-zbs-mau-voucher) |
-| 5 | [Quy trình tạo template ZBS — Mẫu Xác thực](#5-quy-trinh-tao-template-zbs-mau-xac-thuc) |
+### Bước 2: Thiết lập thông tin và nội dung
 
-***
+Tại màn hình tạo mới, tiến hành nhập các thông số định dạng cho Template theo bảng sau:
 
-### II. Các bước thực hiện
+| Thông số | Cách thiết lập |
+| :--- | :--- |
+| **Tên mẫu ZBS** | Nhập tên gọi nội bộ để dễ dàng nhận diện và quản lý (VD: `Thong_bao_don_hang`). |
+| **Nguồn liên hệ** | Chọn tài khoản **Zalo OA** của doanh nghiệp. |
+| **Loại ZBS** | Chọn **Mẫu Tùy Chỉnh**. |
+| **Mục đích** | Chọn phân loại mục đích tương ứng (VD: Giao dịch, Thông báo CSKH). |
+| **Logo** | Nhấp tải lên hình ảnh Logo (Kích thước chuẩn **400x96 px**). |
+| **Tiêu đề & Văn bản** | Nhập nội dung văn bản thông báo. Nếu dùng tham số dữ liệu động, đặt tên tham số trong dấu đóng mở ngoặc nhọn `{}` (VD: `{ten_khach_hang}`). *Yêu cầu phải có ít nhất 1 ô văn bản.* |
+| **Phần Bảng** | Nhập **Tiêu đề** (Tên label hiển thị) và **Nội dung** (Giá trị hoặc tham số chứa ngoặc nhọn `{}`). Nhấp dấu **(+)** để thêm hàng bảng mới. |
+| **Nút thao tác** | (Tùy chọn) Chọn và thiết lập loại nút bấm điều hướng khách hàng. |
+| **Tham số** | Hệ thống tự động trích xuất các biến `{}` từ ô văn bản. Tuyệt đối **không xóa** các dấu ngoặc nhọn tại trường này. |
+| **Ghi chú kiểm duyệt** | Nhập giải thích ngắn gọn mục đích gửi tin cho đội ngũ thẩm định của Zalo (VD: *Template dùng để gửi mã đơn hàng cho khách*). |
+| **Mã tracking** | Giữ nguyên theo mặc định (Mã do hệ thống tự sinh). |
 
-#### 1. Quy trình tạo template ZBS (Mẫu Tùy Chỉnh)
+![Hình 3](../assets/extracted_images/zbs_crm/image5.png)
+*Hình 3: Thiết lập các trường thông tin cơ bản*
 
-#### 🔹 Bước 1: Truy cập menu quản lý
+![Hình 4](../assets/extracted_images/zbs_crm/image6.png)
+*Hình 4: Thiết lập hình ảnh và nội dung tin nhắn*
 
-Tại giao diện chính của CRM, tìm và nhấn vào icon **Mẫu Email, SMS, ZNS**.
+![Hình 5](../assets/extracted_images/zbs_crm/image7.png)
+*Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt*
 
-<img src="../assets/zbs/vao-email-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 1: Truy cập menu Mẫu Email, SMS, ZNS</p>
+### Bước 3: Nộp duyệt lên Zalo
 
-***
+Sau khi kiểm tra bề mặt hiển thị xem trước, nhấp nút **Tạo** để lưu bản nháp và tự động gửi yêu cầu phê duyệt sang hệ thống Zalo.
 
-#### 🔹 Bước 2: Khởi tạo bản mẫu
+---
 
-1. Chọn biểu tượng **Dấu +** tại góc giao diện.
-2. Nhấn chọn dòng **Tạo bản mẫu Zalo ZBS**.
+## 2. Quy trình tạo Mẫu Yêu cầu thanh toán
 
-<img src="../assets/zbs/khoi-tao-template.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 2: Thao tác khởi tạo template mới</p>
+Mẫu Yêu cầu thanh toán chuyên dùng cho các thông báo thu phí, thông báo nợ cước và yêu cầu tuân thủ nghiêm ngặt quy định tài chính của Zalo.
 
-***
+### Bước 1: Khởi tạo
+Thực hiện tương tự Bước 1 của [Mẫu Tùy Chỉnh](#1-quy-trinh-tao-mau-tuy-chinh).
+Tại ô **Loại ZBS**, nhấp chọn **Yêu cầu thanh toán**.
 
-#### 🔹 Bước 3: Thiết lập nội dung chi tiết
+### Bước 2: Khai báo thông tin tài khoản ngân hàng
 
-**Thông tin cơ bản**
+{% hint style="danger" %}
+**Quy định kiểm soát tài khoản ngân hàng**
+- Tài khoản nhận tiền bắt buộc phải **đứng tên chính doanh nghiệp** sở hữu Zalo OA đó.
+- Nếu ủy quyền cho pháp nhân thứ 3 thu hộ, bắt buộc khai báo văn bản/hợp đồng ủy quyền vào mục **Ghi chú** hoặc gửi biểu mẫu xác nhận riêng lên trang Hỗ trợ ZBS.
+{% endhint %}
 
-* **Tên mẫu ZBS:** Đặt tên gợi nhớ để quản lý nội bộ.
-* **Nguồn liên hệ:** Chọn đúng Zalo OA đang hoạt động.
-* **Loại ZBS:** Chọn **Mẫu Tùy Chỉnh**.
-* **Mục đích:** Lựa chọn mục đích phù hợp (Giao dịch, Thông báo...).
+Tiếp tục khai báo phần **Bảng**, **Văn bản** và **Tham số** như bình thường. Cuối cùng, nhấp **Tạo** để nộp duyệt.
+![Mẫu Yêu cầu Thanh toán](../assets/extracted_images/zbs_crm/image9.png)
 
-<img src="../assets/zbs/thong-tin-co-ban.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 3: Thiết lập các trường thông tin cơ bản</p>
+{% hint style="info" %}
+**Theo dõi trạng thái kiểm duyệt**
+Bạn có thể theo dõi tiến độ duyệt mẫu tại danh sách quản lý chung:
+- 🟢 **Được duyệt:** Template được kích hoạt, sẵn sàng ghép vào chiến dịch gửi tin.
+- 🔴 **Từ chối:** Nhấp vào xem thông báo lỗi, tiến hành chỉnh sửa và tạo lại mẫu mới.
+{% endhint %}
+![Giao diện trạng thái duyệt](../assets/extracted_images/zbs_crm/image11.png)
 
-**Nội dung hiển thị & Tham số**
+---
 
-* **Logo:** Sử dụng ảnh kích thước **400x96 px**, yêu cầu **xóa background** trước khi upload.
-* **Tiêu đề & Văn bản:** Bắt buộc nhập đầy đủ. Nếu sử dụng biến động, đặt tên biến trong dấu `{ten_bien}`.
-* **Phần Bảng:** Định nghĩa "Tiêu đề" (nhãn) và "Nội dung" (giá trị hoặc biến trong `{}`).
-* **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`** tại mục này.
-* **Ghi chú kiểm duyệt:** Giải thích ngắn gọn mục đích gửi tin để Zalo duyệt nhanh hơn.
+## 3. Quy trình tạo Mẫu Đánh giá dịch vụ
 
-<img src="../assets/zbs/dien-cac-truong-thong-tin-khac.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 4: Thiết lập hình ảnh và nội dung tin nhắn</p>
+Mẫu Đánh giá dịch vụ tích hợp sẵn module khảo sát, hiển thị các thang điểm đánh giá ngay trong màn hình chat của Khách hàng.
 
-<img src="../assets/zbs/dien-cac-truong-thong-tin-khac-2.png" width="100%" style="border-radius:8px; border:1px solid #eee; display: block; margin: 25px 0;" />
-<p style="font-size:16px; color:#888; font-weight:bold; text-align:center; margin-top:-15px; margin-bottom:35px;">Hình 5: Hoàn thiện tham số và ghi chú kiểm duyệt</p>
+### Bước 1: Khởi tạo
+Thực hiện thao tác thêm Template mới và chọn **Loại ZBS** là **Đánh giá dịch vụ**.
 
-👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
+### Bước 2: Cấu hình bảng đánh giá
 
-***
+Khai báo các thông số khảo sát theo bảng sau:
 
-#### 2. Quy trình tạo template ZBS (Mẫu Yêu cầu thanh toán)
+| Thông số | Cách thiết lập |
+| :--- | :--- |
+| **Câu hỏi đánh giá** | Nhập câu hỏi khảo sát ngắn gọn (VD: *Bạn đánh giá như thế nào về tổng đài viên hôm nay?*). |
+| **Loại đánh giá** | Chọn 1 trong 3 cơ chế hệ thống cung cấp: <br>1. **Sao (1-5):** Đánh giá theo mức độ sao phổ biến.<br>2. **Thang điểm số:** Chấm điểm theo thang phân loại.<br>3. **Lựa chọn văn bản:** Trắc nghiệm đáp án có sẵn (A/B/C). |
+| **Câu hỏi phụ** | (Tùy chọn) Thêm một trường textbox để khách hàng nhập nhận xét tự do của họ. |
+| **Phần Bảng & Tham số** | Tiếp tục khai báo tương tự các mẫu thông thường. |
 
-Mẫu tin nhắn này yêu cầu tuân thủ nghiêm ngặt các quy định về tài chính của Zalo.
+![Mẫu Đánh giá dịch vụ](../assets/extracted_images/zbs_crm/image12.png)
 
-#### 🔹 Đặc điểm riêng của Mẫu Thanh toán
+Nhấp **Tạo** để hoàn tất nộp duyệt cho Zalo.
 
-Tại **Bước 3**, mục **Loại ZBS** hãy chọn: **Yêu cầu thanh toán**. Các bước còn lại thực hiện tương tự Mẫu Tùy Chỉnh.
+---
 
-**⚠️ Quy định về Tài khoản ngân hàng**
+## 4. Quy trình tạo Mẫu Voucher
 
-* **Tính chính chủ:** Tài khoản nhận tiền phải **đứng tên chính doanh nghiệp** sở hữu Zalo OA đó.
-* **Trường hợp ủy quyền:** Nếu dùng tài khoản bên thứ 3 (cá nhân/DN khác), phải cung cấp hợp đồng/văn bản ủy quyền thu hộ qua mục _Ghi chú_ hoặc biểu mẫu hỗ trợ: [go.zalo.me/zbs-support](https://go.zalo.me/zbs-support).
+Mẫu chuyên dụng để phân phối mã ưu đãi, thẻ giảm giá (coupon) dưới định dạng trực quan cho tập khách hàng.
 
-_📸 \[Hình ảnh giao diện cập nhật thông tin thanh toán Zalo OA — sẽ bổ sung sau]_
+### Bước 1: Khởi tạo
+Thêm mới Template và chọn **Loại ZBS** là **Voucher**.
 
-**📌 Theo dõi trạng thái**
+### Bước 2: Cấu hình thông tin Voucher
 
-Sau khi tạo, theo dõi cột **Trạng thái** trong danh sách:
+Tại **Phần Bảng**, yêu cầu khai báo đầy đủ các trường thông tin đặc thù của 1 Voucher:
+- Mã giảm giá (Thiết lập tham số `{ma_voucher}`).
+- Mức giảm hoặc Giá trị ưu đãi.
+- Hạn sử dụng (Thiết lập tham số `{han_su_dung}`).
+- Nút thao tác (Nên thêm nút **Xem chi tiết** hoặc **Dùng ngay** trỏ liên kết về Website/App đặt hàng).
 
-* ● **Được duyệt:** Có thể bắt đầu sử dụng để gửi tin.
-* ● **Từ chối:** Xem lý do, chỉnh sửa và cập nhật lại template.
+![Mẫu Voucher](../assets/extracted_images/zbs_crm/image13.png)
 
-_📸 \[Hình ảnh màn hình trạng thái duyệt / từ chối — sẽ bổ sung sau]_
+Sau khi hoàn thiện hình thức, nhấp **Tạo** để hoàn tất nộp duyệt.
 
-👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
+---
 
-***
+## 5. Quy trình tạo Mẫu Xác thực (OTP)
 
-#### 3. Quy trình tạo template ZBS (Mẫu Đánh giá dịch vụ)
+Mẫu Xác thực được Zalo áp dụng độ ưu tiên phân phối cao nhất, chuyên dành cho luồng gửi mã OTP bảo mật, đăng nhập hoặc liên kết tài khoản.
 
-Mẫu này cho phép doanh nghiệp thu thập phản hồi từ khách hàng thông qua câu hỏi đánh giá chất lượng dịch vụ, hiển thị trực tiếp trên giao diện Zalo.
+### Bước 1: Khởi tạo
+Thêm mới Template và chọn **Loại ZBS** là **Xác thực**.
 
-#### 🔹 Đặc điểm riêng của Mẫu Đánh giá
+### Bước 2: Cấu hình biến mã xác thực
 
-Tại **Bước 3**, mục **Loại ZBS** hãy chọn: **Đánh giá dịch vụ**. Các bước còn lại thực hiện tương tự Mẫu Tùy Chỉnh.
+Tại phần **Văn bản** và **Bảng**, thiết lập cấu trúc bắt buộc:
+- Thông báo ngữ cảnh gửi sinh mã (VD: *Mã OTP xác thực đăng nhập tài khoản của bạn*).
+- Tham số động chứa mã OTP chính sinh ra từ hệ thống.
+- Thời gian hiệu lực khả dụng của mã.
 
-**Phần câu hỏi đánh giá**
+{% hint style="warning" %}
+Nội dung của Mẫu Xác thực yêu cầu tính cô đọng tuyệt đối. Không chèn các thông tin không liên quan để tránh bị hệ thống kiểm duyệt AI của Zalo đánh trượt hoặc chuyển xuống tốc độ gửi của tin nhắn phổ thông.
+{% endhint %}
 
-* Nhập **Câu hỏi đánh giá** (ví dụ: _Bạn đánh giá thế nào về dịch vụ của chúng tôi?_).
-* Chọn **Loại đánh giá** phù hợp:
-  * **Sao (1–5):** Khách hàng chọn từ 1 đến 5 sao — phổ biến nhất.
-  * **Thang điểm số:** Khách hàng chọn điểm trong khoảng quy định.
-  * **Lựa chọn văn bản:** Liệt kê các đáp án để khách hàng chọn một.
-* Có thể thêm **câu hỏi phụ** (câu hỏi mở) để khách hàng nhập nhận xét tự do.
+![Mẫu Xác thực OTP](../assets/extracted_images/zbs_crm/image14.png)
 
-**Thông tin khác**
-
-* **Phần Bảng:** Điền các trường thông tin liên quan. Biến đặt trong dấu `{}`.
-* **Nút thao tác** (không bắt buộc): Có thể thêm nút _Gửi đánh giá_.
-* **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`**.
-* **Ghi chú kiểm duyệt:** Ví dụ: _Template dùng để thu thập đánh giá chất lượng dịch vụ sau giao dịch._
-* **Mã tracking:** Mã tự sinh, không cần chỉnh sửa.
-
-_📸 \[Hình ảnh giao diện nhập câu hỏi đánh giá — sẽ bổ sung sau]_
-
-👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
-
-***
-
-#### 4. Quy trình tạo template ZBS (Mẫu Voucher)
-
-Mẫu này dùng để gửi mã ưu đãi, coupon hoặc voucher tới khách hàng thông qua Zalo OA.
-
-#### 🔹 Đặc điểm riêng của Mẫu Voucher
-
-Tại **Bước 3**, mục **Loại ZBS** hãy chọn: **Voucher**. Các bước còn lại thực hiện tương tự Mẫu Tùy Chỉnh.
-
-**Phần thông tin Voucher**
-
-* **Phần Bảng:** Điền thông tin Voucher gồm: mã giảm giá (`{ma_voucher}`), mức giảm, hạn sử dụng (`{han_su_dung}`), điều kiện áp dụng. Biến đặt trong dấu `{}`.
-* **Nút thao tác** (không bắt buộc): Có thể thêm nút _Dùng ngay_, _Xem chi tiết_.
-* **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`**.
-* **Ghi chú kiểm duyệt:** Ví dụ: _Template gửi voucher ưu đãi cho khách hàng thân thiết._
-* **Mã tracking:** Mã tự sinh, không cần chỉnh sửa.
-
-_📸 \[Hình ảnh giao diện thiết lập Mẫu Voucher — sẽ bổ sung sau]_
-
-👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
-
-***
-
-#### 5. Quy trình tạo template ZBS (Mẫu Xác thực)
-
-Mẫu này dùng để gửi mã OTP hoặc liên kết xác thực danh tính người dùng qua Zalo OA.
-
-#### 🔹 Đặc điểm riêng của Mẫu Xác thực
-
-Tại **Bước 3**, mục **Loại ZBS** hãy chọn: **Xác thực**. Các bước còn lại thực hiện tương tự Mẫu Tùy Chỉnh.
-
-**Phần thông tin Xác thực**
-
-* **Tiêu đề & Văn bản:** Nhập nội dung thông báo. Biến động (mã OTP) đặt trong `{ten_bien}`. Bắt buộc ít nhất 1 ô văn bản.
-* **Phần Bảng:** Điền mã xác thực (`{ma_otp}`) và thời gian hiệu lực (ví dụ: _5 phút_).
-* **Nút thao tác** (không bắt buộc): Có thể thêm nút _Xác nhận_ hoặc _Xác thực ngay_.
-* **Tham số:** Tuyệt đối **không xóa dấu ngoặc `{}`**.
-* **Ghi chú kiểm duyệt:** Ví dụ: _Template gửi mã OTP xác thực tài khoản khách hàng._
-* **Mã tracking:** Mã tự sinh, không cần chỉnh sửa.
-
-_📸 \[Hình ảnh giao diện thiết lập Mẫu Xác thực — sẽ bổ sung sau]_
-
-👉 Sau khi kiểm tra kỹ, nhấn nút **Tạo** để hoàn tất gửi yêu cầu cho Zalo.
-
-***
-
-[← SMS Brandname](sms-brandname.md)
+Nhấp **Tạo** để gửi lệnh nộp duyệt Template OTP.
