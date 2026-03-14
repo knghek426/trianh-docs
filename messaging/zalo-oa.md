@@ -16,11 +16,11 @@ Hướng dẫn cấu hình template tạo ZBS trên CRM
 
 ### 1. Quy trình tạo template ZBS ( Mẫu Tùy Chỉnh )
 
-* **Bước 1**: Click vào hình ![Icon Cài đặt](../assets/extracted_images/zbs_crm/image1.png) => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
+* **Bước 1**: Click vào mục **Cài đặt** (biểu tượng bánh răng) => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
 
   ![Giao diện Mẫu SMS Email ZNS](../assets/extracted_images/zbs_crm/image2.png)
 
-* **Bước 2**: Click vào hình ![Icon Mở rộng](../assets/extracted_images/zbs_crm/image3.png) sau đó click vào nút ![Icon Thêm thẻ ZBS](../assets/extracted_images/zbs_crm/image4.png) để tạo bản mẫu Zalo ZBS.
+* **Bước 2**: Tại danh sách mẫu tin, bạn click vào mục mở rộng sau đó click vào nút **Thêm thẻ ZBS** để tạo bản mẫu Zalo ZBS.
 
   ![Tạo bản mẫu Zalo ZBS](../assets/extracted_images/zbs_crm/image5.png)
 
@@ -38,7 +38,7 @@ Hướng dẫn cấu hình template tạo ZBS trên CRM
 
     ![Khai báo Hình ảnh, Tiêu đề, Văn bản](../assets/extracted_images/zbs_crm/image7.png)
 
-  * Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là tên biến ( Biến phải để trong dấu `{}` ). Có thể click vào hình dấu ![Icon thêm hàng](../assets/extracted_images/zbs_crm/image8.png) để thêm hàng mới.
+  * Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là tên biến ( Biến phải để trong dấu `{}` ). Có thể click vào nút dấu **+** ở góc phải để thêm hàng mới.
   * Nút thao tác ( không bắt buộc ).
   * Nhập Tham số ( không được bỏ ngoặc `{}` ở phần này ).
   * Ghi chú cho kiểm duyệt có thể điền nội dung bất kì. Ví dụ: Template này dùng để giao dịch.
@@ -46,13 +46,13 @@ Hướng dẫn cấu hình template tạo ZBS trên CRM
 
     ![Khai báo Bảng và Tham số](../assets/extracted_images/zbs_crm/image9.png)
 
-  * Kiểm tra lại một lượt nữa và nhấn nút ![Icon Tạo](../assets/extracted_images/zbs_crm/image10.png) để tạo template và đẩy lên Zalo.
+  * Kiểm tra lại một lượt nữa và nhấn nút **Tạo** hoặc **Lưu** để tạo template và đẩy lên Zalo.
 
 ### 2. Quy trình tạo template ZBS ( Mẫu Yêu cầu thanh toán)
 
-* **Bước 1**: Click vào hình ![Icon Cài đặt](../assets/extracted_images/zbs_crm/image1.png) => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
+* **Bước 1**: Click vào mục **Cài đặt** (biểu tượng bánh răng) => Mẫu Email, SMS, ZNS để vào giao diện tạo template.
 
-* **Bước 2**: Click vào hình ![Icon Mở rộng](../assets/extracted_images/zbs_crm/image3.png) sau đó click vào nút ![Icon Thêm thẻ ZBS](../assets/extracted_images/zbs_crm/image4.png) để tạo bản mẫu Zalo ZBS.
+* **Bước 2**: Tại danh sách mẫu tin, bạn click vào mục mở rộng sau đó click vào nút **Thêm thẻ ZBS** để tạo bản mẫu Zalo ZBS.
 
 * **Bước 3**: Click chọn Loại ZBS Yêu cầu thanh toán => Thêm hình ảnh logo, tiêu đề văn bản như Mẫu Tùy Chỉnh.
 
@@ -64,7 +64,7 @@ Hướng dẫn cấu hình template tạo ZBS trên CRM
 
   ![Điền Thông tin thanh toán](../assets/extracted_images/zbs_crm/image12.png)
 
-  * Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là biến ( Nếu có biến, biến phải để trong dấu `{}` ). Có thể click vào hình dấu ![Icon thêm hàng](../assets/extracted_images/zbs_crm/image8.png) để thêm hàng mới.
+  * Ở phần Bảng, nhập “Tiêu đề” là tên của biến và “Nội dung” là biến ( Nếu có biến, biến phải để trong dấu `{}` ). Có thể click vào nút dấu **+** ở góc phải để thêm hàng mới.
   * Nút thao tác ( không bắt buộc ).
   * Nhập Tham số ( không bỏ ngoặc `{}` ở phần này ).
   * Ghi chú cho kiểm duyệt có thể điền nội dung bất kì. Ví dụ: Template này dùng để giao dịch.
@@ -72,7 +72,7 @@ Hướng dẫn cấu hình template tạo ZBS trên CRM
 
     ![Điền Bảng, Tham số mẫu Thanh toán](../assets/extracted_images/zbs_crm/image13.png)
 
-  * Kiểm tra lại một lượt nữa và nhấn nút ![Icon Tạo](../assets/extracted_images/zbs_crm/image10.png) để tạo template và đẩy lên Zalo.
+  * Kiểm tra lại một lượt nữa và nhấn nút **Tạo** hoặc **Lưu** để tạo template và đẩy lên Zalo.
 
 * Màn hình giao diện template được duyệt và từ chối như sau:
 

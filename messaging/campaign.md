@@ -8,8 +8,7 @@ _Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi
 
 *   **Bước 1**: Vào **Quản lý** -> **Cài đặt** -> **Chức năng mới** -> **Danh sách mẫu tin**
 
-    ![Truy cập Danh sách mẫu tin](<../.gitbook/assets/image1 (6).png>)
-*   **Bước 2**: Click vào nút hình dấu ![Icon Thêm](<../.gitbook/assets/image2 (6).png>) để tạo mẫu tin
+*   **Bước 2**: Click vào nút hình dấu **+** để tạo mẫu tin
 
     ![Chọn nút Thêm mẫu tin](<../.gitbook/assets/image3 (5).png>)
 * **Bước 3**: Gồm có các thông tin cần điền vào template như sau:
@@ -19,7 +18,7 @@ _Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi
   * **Loại gửi**: CSKH App.
   * **Nguồn liên hệ**: Thông báo.
   * **Nội dung**: Điền thông tin nội dung của tin nhắn và gán biến vào nội dung dưới dạng ví dụ `{tenkh}`, `{sodanhbo}`.
-  *   **File**: Click vào ![Icon Chọn Tệp](<../.gitbook/assets/image4 (5).png>) để add file vào template.
+  *   **File**: Click vào nút **Chọn tệp** để upload file vào template.
 
       ![Điền các thông tin cơ bản](<../.gitbook/assets/image5 (6).png>)
   *   **Tổ chức và Người dùng**: Chọn theo đơn vị.
@@ -38,14 +37,14 @@ _Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi
   *   Mặc định là các biến sẽ là ignore, nhấn vào để gán lại cho đúng biến.
 
       ![Cấu hình biến Excel](<../.gitbook/assets/image10 (3).png>)
-  * Sau đó nhấn ![Icon Save Config](<../.gitbook/assets/image11 (4).png>) để lưu lại.
+  * Sau đó nhấn nút **Save Config** để lưu lại.
 
 ### b) Tạo Mẫu tin Gateway để gửi chiến dịch
 
 *   **Bước 1**: Click vào **Quản lý** -> **Cài đặt** -> **Mẫu Email & SMS** -> **Mẫu tin Gateway**
 
     ![Truy cập Mẫu tin Gateway](<../.gitbook/assets/image12 (7).png>)
-*   **Bước 2**: Click vào hình dấu ![Icon Thêm](<../.gitbook/assets/image13 (6).png>) để thêm mới mẫu Gateway.
+*   **Bước 2**: Click vào nút dấu **+** ở góc phải để thêm mới mẫu Gateway.
 
     ![Danh sách Mẫu tin Gateway](<../.gitbook/assets/image14 (6).png>)
 * **Bước 3**: Gồm những thông tin như ( Có thể tham khảo hình ở dưới):
@@ -74,7 +73,7 @@ _Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi
   * **Biểu mẫu**: Chọn biểu mẫu cần gửi.
   * **Dowload template**: Tải File excel về nếu chưa có.
   * Sau đó Click vào File Import để đẩy file lên.
-  *   Nhấn nút ![Icon Lưu](<../.gitbook/assets/image23 (4).png>) để bắt đầu tạo chiến dịch.
+  *   Nhấn nút **Lưu định dạng** (hoặc biểu tượng Lưu) để bắt đầu tạo chiến dịch.
 
       ![Cấu hình tạo chiến dịch](<../.gitbook/assets/image21 (3).png>)
 *   **Bước 4**: Sau khi lưu xong, nhấn vào nút “play” để bắt đầu gửi chiến dịch.
