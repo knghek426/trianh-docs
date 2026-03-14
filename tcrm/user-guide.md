@@ -1,4 +1,4 @@
-# Hướng dẫn gửi Đánh giá Cuộc gọi
+# Hướng dẫn sử dụng nhanh
 
 Tính năng đánh giá cuộc gọi cho phép nhân viên gửi đánh giá chất lượng dịch vụ đến Khách Hàng sau khi kết thúc cuộc gọi.
 

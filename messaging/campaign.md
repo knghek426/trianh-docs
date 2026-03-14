@@ -1,41 +1,28 @@
-# Hướng dẫn tạo template CSKH và gửi chiến dịch A.C tại các đơn vị
+# Chiến dịch Tự động (Gateway)
 
-*Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi tin thông báo cho Khách hàng sử dụng app SAWACO.*
+_Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi tin thông báo cho Khách hàng sử dụng app SAWACO._
 
 ## 1. Tạo Mẫu tin và Mẫu tin Gateway trên trang TCRM của đơn vị
 
 ### a) Tạo mẫu tin trong danh sách mẫu tin
 
-- **Bước 1**: Vào **Quản lý** -> **Cài đặt** -> **Chức năng mới** -> **Danh sách mẫu tin**
-  ![Truy cập Danh sách mẫu tin](../assets/extracted_images/chien_dich_cskh/image1.png)
-
-- **Bước 2**: Click vào nút hình dấu ![Icon Thêm](../assets/extracted_images/chien_dich_cskh/image2.png) để tạo mẫu tin
-  ![Chọn nút Thêm mẫu tin](../assets/extracted_images/chien_dich_cskh/image3.png)
-
-- **Bước 3**: Gồm có các thông tin cần điền vào template như sau:
-  - **Mã template**: Điền tên của template.
-  - **VMG Template ID**: Điền id muốn đặt.
-  - **Chủ đề**: Điền chủ đề cần gửi vào đây.
-  - **Loại gửi**: CSKH App.
-  - **Nguồn liên hệ**: Thông báo.
-  - **Nội dung**: Điền thông tin nội dung của tin nhắn và gán biến vào nội dung dưới dạng ví dụ `{tenkh}`, `{sodanhbo}`.
-  - **File**: Click vào ![Icon Chọn Tệp](../assets/extracted_images/chien_dich_cskh/image4.png) để add file vào template.
-  ![Điền các thông tin cơ bản](../assets/extracted_images/chien_dich_cskh/image5.png)
-
-  - **Tổ chức và Người dùng**: Chọn theo đơn vị.
-  ![Chọn Tổ chức và Người dùng](../assets/extracted_images/chien_dich_cskh/image6.png)
-
-  - **Chuẩn bị file excel như sau**:
-  ![File excel chứa các trường tùy biến](../assets/extracted_images/chien_dich_cskh/image7.png)
-
-- **Bước 5**: Cấu hình biến của file excel sau khi đã tạo xong template
-  - Click vào tên template vừa mới tạo.
-    ![Template vừa tạo trong danh sách](../assets/extracted_images/chien_dich_cskh/image8.png)
-  - Bấm vào nút cấu hình.
-    ![Nút cấu hình](../assets/extracted_images/chien_dich_cskh/image9.png)
-  - Mặc định là các biến sẽ là ignore, nhấn vào để gán lại cho đúng biến.
-    ![Cấu hình biến Excel](../assets/extracted_images/chien_dich_cskh/image10.png)
-  - Sau đó nhấn ![Icon Save Config](../assets/extracted_images/chien_dich_cskh/image11.png) để lưu lại.
+* **Bước 1**: Vào **Quản lý** -> **Cài đặt** -> **Chức năng mới** -> **Danh sách mẫu tin** ![Truy cập Danh sách mẫu tin](<../.gitbook/assets/image1 (6).png>)
+* **Bước 2**: Click vào nút hình dấu ![Icon Thêm](<../.gitbook/assets/image2 (6).png>) để tạo mẫu tin ![Chọn nút Thêm mẫu tin](<../.gitbook/assets/image3 (5).png>)
+* **Bước 3**: Gồm có các thông tin cần điền vào template như sau:
+  * **Mã template**: Điền tên của template.
+  * **VMG Template ID**: Điền id muốn đặt.
+  * **Chủ đề**: Điền chủ đề cần gửi vào đây.
+  * **Loại gửi**: CSKH App.
+  * **Nguồn liên hệ**: Thông báo.
+  * **Nội dung**: Điền thông tin nội dung của tin nhắn và gán biến vào nội dung dưới dạng ví dụ `{tenkh}`, `{sodanhbo}`.
+  * **File**: Click vào ![Icon Chọn Tệp](<../.gitbook/assets/image4 (5).png>) để add file vào template. ![Điền các thông tin cơ bản](<../.gitbook/assets/image5 (6).png>)
+  * **Tổ chức và Người dùng**: Chọn theo đơn vị. ![Chọn Tổ chức và Người dùng](<../.gitbook/assets/image6 (5).png>)
+  * **Chuẩn bị file excel như sau**: ![File excel chứa các trường tùy biến](<../.gitbook/assets/image7 (5).png>)
+* **Bước 5**: Cấu hình biến của file excel sau khi đã tạo xong template
+  * Click vào tên template vừa mới tạo. ![Template vừa tạo trong danh sách](<../.gitbook/assets/image8 (4).png>)
+  * Bấm vào nút cấu hình. ![Nút cấu hình](<../.gitbook/assets/image9 (3).png>)
+  * Mặc định là các biến sẽ là ignore, nhấn vào để gán lại cho đúng biến. ![Cấu hình biến Excel](<../.gitbook/assets/image10 (3).png>)
+  * Sau đó nhấn ![Icon Save Config](<../.gitbook/assets/image11 (4).png>) để lưu lại.
 
 ### b) Tạo Mẫu tin Gateway để gửi chiến dịch
 
