@@ -26,39 +26,23 @@ _Hướng dẫn này dùng để các đơn vị sẽ tạo chiến dịch gửi
 
 ### b) Tạo Mẫu tin Gateway để gửi chiến dịch
 
-- **Bước 1**: Click vào **Quản lý** -> **Cài đặt** -> **Mẫu Email & SMS** -> **Mẫu tin Gateway**
-  ![Truy cập Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image12.png)
-
-- **Bước 2**: Click vào hình dấu ![Icon Thêm](../assets/extracted_images/chien_dich_cskh/image13.png) để thêm mới mẫu Gateway.
-  ![Danh sách Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image14.png)
-
-- **Bước 3**: Gồm những thông tin như ( Có thể tham khảo hình ở dưới):
-  - **Tên mẫu tin**: Tên hiển thị bên ngoài
-  - **Mẫu tin**: Lấy giá trị ở các mẫu tin có sẵn. (VD: template cskh mình đang tạo mẫu tin)
-    ![Thông tin Gateway 1](../assets/extracted_images/chien_dich_cskh/image15.png)
-  - Chọn các biến để mapping với mẫu tin cskh.
-    ![Thông tin Gateway 2](../assets/extracted_images/chien_dich_cskh/image16.png)
-  - Chọn gửi từ CSKH App.
-    ![Thông tin Gateway 3](../assets/extracted_images/chien_dich_cskh/image17.png)
-
-- **Bước 4**: Sau khi thiết lập xong cấu hình gửi tin thì lưu cấu hình lại.
-  ![Lưu Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image18.png)
+* **Bước 1**: Click vào **Quản lý** -> **Cài đặt** -> **Mẫu Email & SMS** -> **Mẫu tin Gateway** ![Truy cập Mẫu tin Gateway](<../.gitbook/assets/image12 (6).png>)
+* **Bước 2**: Click vào hình dấu ![Icon Thêm](<../.gitbook/assets/image13 (5).png>) để thêm mới mẫu Gateway. ![Danh sách Mẫu tin Gateway](<../.gitbook/assets/image14 (5).png>)
+* **Bước 3**: Gồm những thông tin như ( Có thể tham khảo hình ở dưới):
+  * **Tên mẫu tin**: Tên hiển thị bên ngoài
+  * **Mẫu tin**: Lấy giá trị ở các mẫu tin có sẵn. (VD: template cskh mình đang tạo mẫu tin) ![Thông tin Gateway 1](<../.gitbook/assets/image15 (3).png>)
+  * Chọn các biến để mapping với mẫu tin cskh. ![Thông tin Gateway 2](<../.gitbook/assets/image16 (3).png>)
+  * Chọn gửi từ CSKH App. ![Thông tin Gateway 3](<../.gitbook/assets/image17 (3).png>)
+* **Bước 4**: Sau khi thiết lập xong cấu hình gửi tin thì lưu cấu hình lại. ![Lưu Mẫu tin Gateway](<../.gitbook/assets/image18 (3).png>)
 
 ## 2. Tạo và gửi chiến dịch CSKH tại trang TCRM của đơn vị
 
-- **Bước 1**: Click vào **Khách hàng** -> **Chiến dịch tự động** -> **Quản lý chiến dịch**.
-  ![Truy cập Quản lý chiến dịch](../assets/extracted_images/chien_dich_cskh/image19.png)
-
-- **Bước 2**: Click vào nút dấu ![Icon Thêm chiến dịch](../assets/extracted_images/chien_dich_cskh/image20.png) để tạo chiến dịch
-
-- **Bước 3**: Có các thông tin cần chọn như sau:
-  - **Loại**: Chọn loại tin cần gửi ( ở đây là Gateway ).
-  - **Biểu mẫu**: Chọn biểu mẫu cần gửi.
-  - **Dowload template**: Tải File excel về nếu chưa có.
-  - Sau đó Click vào File Import để đẩy file lên.
-  - Nhấn nút ![Icon Lưu](../assets/extracted_images/chien_dich_cskh/image23.png) để bắt đầu tạo chiến dịch.
-    ![Cấu hình tạo chiến dịch](../assets/extracted_images/chien_dich_cskh/image21.png)
-
-- **Bước 4**: Sau khi lưu xong, nhấn vào nút “play” để bắt đầu gửi chiến dịch.
-  ![Nút Gửi chiến dịch](../assets/extracted_images/chien_dich_cskh/image24.png)
-  ![Gửi chiến dịch trực tiếp](../assets/extracted_images/chien_dich_cskh/image25.png)
+* **Bước 1**: Click vào **Khách hàng** -> **Chiến dịch tự động** -> **Quản lý chiến dịch**. ![Truy cập Quản lý chiến dịch](<../.gitbook/assets/image19 (2).png>)
+* **Bước 2**: Click vào nút dấu ![Icon Thêm chiến dịch](<../.gitbook/assets/image20 (2).png>) để tạo chiến dịch
+* **Bước 3**: Có các thông tin cần chọn như sau:
+  * **Loại**: Chọn loại tin cần gửi ( ở đây là Gateway ).
+  * **Biểu mẫu**: Chọn biểu mẫu cần gửi.
+  * **Dowload template**: Tải File excel về nếu chưa có.
+  * Sau đó Click vào File Import để đẩy file lên.
+  * Nhấn nút ![Icon Lưu](<../.gitbook/assets/image23 (3).png>) để bắt đầu tạo chiến dịch. ![Cấu hình tạo chiến dịch](<../.gitbook/assets/image21 (2).png>)
+* **Bước 4**: Sau khi lưu xong, nhấn vào nút “play” để bắt đầu gửi chiến dịch. ![Nút Gửi chiến dịch](<../.gitbook/assets/image24 (3).png>) ![Gửi chiến dịch trực tiếp](<../.gitbook/assets/image25 (2).png>)
