@@ -42,7 +42,8 @@
 - **Bước 1**: Click vào **Quản lý** -> **Cài đặt** -> **Mẫu Email & SMS** -> **Mẫu tin Gateway**
   ![Truy cập Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image12.png)
 
-- **Bước 2**: Click vào hình dấu ![Icon Thêm](../assets/extracted_images/chien_dich_cskh/image13.png) hoặc ![Nút tạo Gateway](../assets/extracted_images/chien_dich_cskh/image14.png) để thêm mới.
+- **Bước 2**: Click vào hình dấu ![Icon Thêm](../assets/extracted_images/chien_dich_cskh/image13.png) để thêm mới mẫu Gateway.
+  ![Danh sách Mẫu tin Gateway](../assets/extracted_images/chien_dich_cskh/image14.png)
 
 - **Bước 3**: Gồm những thông tin như ( Có thể tham khảo hình ở dưới):
   - **Tên mẫu tin**: Tên hiển thị bên ngoài
@@ -67,7 +68,7 @@
   - **Loại**: Chọn loại tin cần gửi ( ở đây là Gateway ).
   - **Biểu mẫu**: Chọn biểu mẫu cần gửi.
   - **Dowload template**: Tải File excel về nếu chưa có.
-  - ![Icon Upload](../assets/extracted_images/chien_dich_cskh/image22.png) : Click vào đây để đẩy file lên.
+  - Sau đó Click vào File Import để đẩy file lên.
   - Nhấn nút ![Icon Lưu](../assets/extracted_images/chien_dich_cskh/image23.png) để bắt đầu tạo chiến dịch.
     ![Cấu hình tạo chiến dịch](../assets/extracted_images/chien_dich_cskh/image21.png)
 
